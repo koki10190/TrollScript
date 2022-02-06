@@ -1,114 +1,114 @@
-const _0x2e83c9 = _0x3446;
-(function (_0x1e43e2, _0x5c1619) {
-    const _0x5c0bf6 = _0x3446,
-        _0x577717 = _0x1e43e2();
+function _0x416d(_0x35d83c, _0x2e1748) {
+    const _0x4c26be = _0x4c26();
+    return (
+        (_0x416d = function (_0x416dbf, _0x393da2) {
+            _0x416dbf = _0x416dbf - 0xd2;
+            let _0x325f0c = _0x4c26be[_0x416dbf];
+            return _0x325f0c;
+        }),
+        _0x416d(_0x35d83c, _0x2e1748)
+    );
+}
+const _0x233e55 = _0x416d;
+(function (_0xa20983, _0x30fc26) {
+    const _0x40b1d1 = _0x416d,
+        _0x1331f2 = _0xa20983();
     while (!![]) {
         try {
-            const _0x570289 =
-                parseInt(_0x5c0bf6(0x88)) / 0x1 +
-                -parseInt(_0x5c0bf6(0x8c)) / 0x2 +
-                -parseInt(_0x5c0bf6(0x7b)) / 0x3 +
-                parseInt(_0x5c0bf6(0x89)) / 0x4 +
-                (parseInt(_0x5c0bf6(0x77)) / 0x5) * (parseInt(_0x5c0bf6(0x8f)) / 0x6) +
-                (-parseInt(_0x5c0bf6(0x8a)) / 0x7) * (-parseInt(_0x5c0bf6(0x73)) / 0x8) +
-                -parseInt(_0x5c0bf6(0x83)) / 0x9;
-            if (_0x570289 === _0x5c1619) break;
-            else _0x577717["push"](_0x577717["shift"]());
-        } catch (_0x295c60) {
-            _0x577717["push"](_0x577717["shift"]());
+            const _0x367ce2 =
+                -parseInt(_0x40b1d1(0xe1)) / 0x1 +
+                -parseInt(_0x40b1d1(0xd9)) / 0x2 +
+                parseInt(_0x40b1d1(0xd5)) / 0x3 +
+                (-parseInt(_0x40b1d1(0xd4)) / 0x4) * (parseInt(_0x40b1d1(0xdb)) / 0x5) +
+                parseInt(_0x40b1d1(0xea)) / 0x6 +
+                (-parseInt(_0x40b1d1(0xe5)) / 0x7) * (-parseInt(_0x40b1d1(0xeb)) / 0x8) +
+                (-parseInt(_0x40b1d1(0xe4)) / 0x9) * (-parseInt(_0x40b1d1(0xe8)) / 0xa);
+            if (_0x367ce2 === _0x30fc26) break;
+            else _0x1331f2["push"](_0x1331f2["shift"]());
+        } catch (_0x2add11) {
+            _0x1331f2["push"](_0x1331f2["shift"]());
         }
     }
-})(_0x2900, 0xcb1f8);
+})(_0x4c26, 0xa1f3e);
+function _0x4c26() {
+    const _0x455933 = [
+        "./src/scripts/",
+        "find",
+        "10kSlkVM",
+        "\x27\x20couldn\x27t\x20be\x20found!",
+        "1501686roJcwf",
+        "32MmtRUd",
+        "./lexer/Lexer",
+        "splice",
+        "./constants/Constants",
+        "utf-8",
+        "1378792wjcBJF",
+        "1453422tunwoT",
+        "start",
+        "Too\x20few\x20arguments!",
+        "argv",
+        "1287088mTMElG",
+        "join",
+        "10vqZlOE",
+        "File\x20\x27",
+        "split",
+        "existsSync",
+        "length",
+        "includes",
+        "831288dKLaqH",
+        "shift",
+        "readFileSync",
+        "7306083bJIWrS",
+        "2241827ENwLED",
+    ];
+    _0x4c26 = function () {
+        return _0x455933;
+    };
+    return _0x4c26();
+}
 const fs = require("fs"),
-    Lexer = require(_0x2e83c9(0x7d)),
-    { BasicError, SyntaxError, FileError, CommandError } = require(_0x2e83c9(0x80));
-function splitMulti(_0x3e1378, _0x5886b2) {
-    const _0x56328f = _0x2e83c9;
-    var _0x4e8d43 = _0x5886b2[0x0];
-    for (var _0x1b8e0b = 0x1; _0x1b8e0b < _0x5886b2[_0x56328f(0x8d)]; _0x1b8e0b++) {
-        _0x3e1378 = _0x3e1378["split"](_0x5886b2[_0x1b8e0b])[_0x56328f(0x74)](_0x4e8d43);
+    Lexer = require(_0x233e55(0xec)),
+    { BasicError, SyntaxError, FileError, CommandError } = require("./errors/Errors");
+function splitMulti(_0x3d3151, _0x5e5720) {
+    const _0x3ad2d7 = _0x233e55;
+    var _0x5c980c = _0x5e5720[0x0];
+    for (var _0x518424 = 0x1; _0x518424 < _0x5e5720["length"]; _0x518424++) {
+        _0x3d3151 = _0x3d3151["split"](_0x5e5720[_0x518424])[_0x3ad2d7(0xda)](_0x5c980c);
     }
-    return (_0x3e1378 = _0x3e1378[_0x56328f(0x87)](_0x4e8d43)), _0x3e1378;
+    return (_0x3d3151 = _0x3d3151[_0x3ad2d7(0xdd)](_0x5c980c)), _0x3d3151;
 }
 const ArrayFunctions = {
-        move: function (_0x272475, _0x3eebbf) {
-            const _0x41c63c = _0x2e83c9;
-            this[_0x41c63c(0x78)](_0x3eebbf, 0x0, this[_0x41c63c(0x78)](_0x272475, 0x1)[0x0]);
+        move: function (_0x31c1d5, _0xc9875) {
+            const _0x1d5942 = _0x233e55;
+            this[_0x1d5942(0xed)](_0xc9875, 0x0, this[_0x1d5942(0xed)](_0x31c1d5, 0x1)[0x0]);
         },
-        getObject: function (_0x4e50b1, _0x2e9153, _0x4c12f4) {
-            const _0xe637d8 = _0x2e83c9;
-            return _0x4c12f4
-                ? this["find"](_0x12b0e2 => _0x12b0e2[_0x4e50b1][_0xe637d8(0x81)](_0x2e9153))
-                : this[_0xe637d8(0x84)](_0x25faed => _0x25faed[_0x4e50b1] === _0x2e9153);
+        getObject: function (_0xfd5fb, _0x2c0c4d, _0xf71458) {
+            const _0x246bfc = _0x233e55;
+            return _0xf71458
+                ? this[_0x246bfc(0xe7)](_0x36c8ca => _0x36c8ca[_0xfd5fb][_0x246bfc(0xe0)](_0x2c0c4d))
+                : this[_0x246bfc(0xe7)](_0x373c90 => _0x373c90[_0xfd5fb] === _0x2c0c4d);
         },
-        remove: function (_0x1de500) {
-            this["splice"](_0x1de500, 0x1);
+        remove: function (_0x46c5af) {
+            const _0x2a953e = _0x233e55;
+            this[_0x2a953e(0xed)](_0x46c5af, 0x1);
         },
     },
-    Constants = require(_0x2e83c9(0x86));
-function main(_0x8e497) {
-    const _0x37d06a = _0x2e83c9;
-    _0x8e497[_0x37d06a(0x85)](), _0x8e497["shift"]();
-    if (_0x8e497[_0x37d06a(0x8d)] < 0x2) return console[_0x37d06a(0x82)](_0x37d06a(0x75));
-    switch (_0x8e497[0x0]) {
-        case _0x37d06a(0x7e): {
-            const _0xbf8487 = _0x37d06a(0x79) + _0x8e497[0x1];
-            if (fs[_0x37d06a(0x7f)](_0xbf8487)) {
-                const _0x4b54bf = fs["readFileSync"](_0xbf8487, { encoding: _0x37d06a(0x7c) }),
-                    _0x48a5e2 = splitMulti(_0x4b54bf, [/\r?\n/]),
-                    _0x398efc = new Lexer(_0x48a5e2);
-                _0x398efc[_0x37d06a(0x7a)]();
-            } else return new FileError(_0x37d06a(0x8e) + _0xbf8487 + _0x37d06a(0x8b));
+    Constants = require(_0x233e55(0xd2));
+function main(_0x164f30) {
+    const _0x2a11bd = _0x233e55;
+    _0x164f30[_0x2a11bd(0xe2)](), _0x164f30[_0x2a11bd(0xe2)]();
+    if (_0x164f30[_0x2a11bd(0xdf)] < 0x2) return console["log"](_0x2a11bd(0xd7));
+    switch (_0x164f30[0x0]) {
+        case "compile": {
+            const _0x5ae299 = _0x2a11bd(0xe6) + _0x164f30[0x1];
+            if (fs[_0x2a11bd(0xde)](_0x5ae299)) {
+                const _0x37b3b = fs[_0x2a11bd(0xe3)](_0x5ae299, { encoding: _0x2a11bd(0xd3) }),
+                    _0x3d3fc2 = splitMulti(_0x37b3b, [/\r?\n/]),
+                    _0xce7a4 = new Lexer(_0x3d3fc2);
+                _0xce7a4[_0x2a11bd(0xd6)]();
+            } else return new FileError(_0x2a11bd(0xdc) + _0x5ae299 + _0x2a11bd(0xe9));
             break;
         }
     }
 }
-function _0x2900() {
-    const _0x10a3d5 = [
-        "shift",
-        "./constants/Constants",
-        "split",
-        "385559fxqOlU",
-        "3901392HOpoMs",
-        "98YMDwvr",
-        "\x27\x20couldn\x27t\x20be\x20found!",
-        "431336xQsmCl",
-        "length",
-        "File\x20\x27",
-        "60ROAdix",
-        "287768bZKDXF",
-        "join",
-        "Too\x20few\x20arguments!",
-        "argv",
-        "107510VxsosV",
-        "splice",
-        "../src/scripts/",
-        "start",
-        "607971EqFUhH",
-        "utf-8",
-        "./lexer/Lexer",
-        "compile",
-        "existsSync",
-        "./errors/Errors",
-        "includes",
-        "log",
-        "7462836TtEOWC",
-        "find",
-    ];
-    _0x2900 = function () {
-        return _0x10a3d5;
-    };
-    return _0x2900();
-}
-function _0x3446(_0x24235d, _0x17d288) {
-    const _0x2900b7 = _0x2900();
-    return (
-        (_0x3446 = function (_0x344663, _0x5bcdf1) {
-            _0x344663 = _0x344663 - 0x73;
-            let _0x2d7a7d = _0x2900b7[_0x344663];
-            return _0x2d7a7d;
-        }),
-        _0x3446(_0x24235d, _0x17d288)
-    );
-}
-main(process[_0x2e83c9(0x76)]);
+main(process[_0x233e55(0xd8)]);
