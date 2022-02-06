@@ -1,0 +1,16 @@
+{
+    "name": "trollscript",
+    "version": "1.0.0",
+    "description": "KokiScript is JavaScript with features",
+    "main": "./src/compiler.js",
+    "scripts": {
+        "electron": "electron . compile yes",
+        "start": "node . compile yes"
+    },
+    "author": "koki1019#1019",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^17.0.0",
+        "mathjs": "^10.1.1"
+    }
+}
