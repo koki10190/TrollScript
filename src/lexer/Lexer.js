@@ -1,899 +1,897 @@
-const _0x5b9542 = _0xcfae;
-(function (_0x368a0c, _0x4554dd) {
-    const _0x21c8bb = _0xcfae,
-        _0x2f845e = _0x368a0c();
+const _0x279d26 = _0x49ed;
+(function (_0x289969, _0x56a9f8) {
+    const _0x2b3280 = _0x49ed,
+        _0x567724 = _0x289969();
     while (!![]) {
         try {
-            const _0x4f813e =
-                parseInt(_0x21c8bb(0x1de)) / 0x1 +
-                -parseInt(_0x21c8bb(0x1e1)) / 0x2 +
-                (-parseInt(_0x21c8bb(0x1b8)) / 0x3) * (parseInt(_0x21c8bb(0x1b5)) / 0x4) +
-                parseInt(_0x21c8bb(0x1bd)) / 0x5 +
-                (parseInt(_0x21c8bb(0x202)) / 0x6) * (-parseInt(_0x21c8bb(0x1f2)) / 0x7) +
-                -parseInt(_0x21c8bb(0x209)) / 0x8 +
-                (-parseInt(_0x21c8bb(0x1fb)) / 0x9) * (-parseInt(_0x21c8bb(0x1f7)) / 0xa);
-            if (_0x4f813e === _0x4554dd) break;
-            else _0x2f845e["push"](_0x2f845e["shift"]());
-        } catch (_0x4605f0) {
-            _0x2f845e["push"](_0x2f845e["shift"]());
+            const _0x1b75bf =
+                -parseInt(_0x2b3280(0x170)) / 0x1 +
+                (-parseInt(_0x2b3280(0x18d)) / 0x2) * (-parseInt(_0x2b3280(0x159)) / 0x3) +
+                (parseInt(_0x2b3280(0x14a)) / 0x4) * (parseInt(_0x2b3280(0x180)) / 0x5) +
+                -parseInt(_0x2b3280(0x135)) / 0x6 +
+                parseInt(_0x2b3280(0x137)) / 0x7 +
+                parseInt(_0x2b3280(0x141)) / 0x8 +
+                (parseInt(_0x2b3280(0x14c)) / 0x9) * (parseInt(_0x2b3280(0x18c)) / 0xa);
+            if (_0x1b75bf === _0x56a9f8) break;
+            else _0x567724["push"](_0x567724["shift"]());
+        } catch (_0x4da081) {
+            _0x567724["push"](_0x567724["shift"]());
         }
     }
-})(_0x4e6b, 0xd2bbb);
-const Constants = require(_0x5b9542(0x1f9)),
-    readline = require(_0x5b9542(0x1cd)),
-    math = require(_0x5b9542(0x1e5)),
-    { SyntaxError } = require(_0x5b9542(0x1b1)),
+})(_0x3d42, 0x2288a);
+const Constants = require(_0x279d26(0x14d)),
+    readline = require(_0x279d26(0x140)),
+    math = require(_0x279d26(0x149)),
+    { SyntaxError } = require(_0x279d26(0x187)),
     variables = {},
     functions = {},
     windows = {};
 let paused = ![];
+function _0x3d42() {
+    const _0x2ac797 = [
+        "false",
+        "mathjs",
+        "4hWUHIg",
+        "shift",
+        "29871ptiLih",
+        "../constants/Constants",
+        "any",
+        "callback",
+        "log",
+        "ANY",
+        "split",
+        "MATH",
+        "VARIABLE",
+        "INT",
+        "Window\x20\x22",
+        "Type\x20or\x20Sum\x20is\x20missing!",
+        "currIndex",
+        "3423wTGARL",
+        "Cannot\x20asign\x20a\x20float\x20value\x20to\x20int",
+        "To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22",
+        "ELECTRON",
+        "loadURL",
+        "float",
+        "STRING",
+        "Channel\x20name\x20wasn\x27t\x20declared",
+        "TROLLMINUS",
+        "int",
+        "join",
+        "funcName",
+        "handle",
+        "TROLLADD",
+        "FLOAT",
+        "createWindow",
+        "Variable\x20\x22",
+        "\x20>>\x20",
+        "BOOLEAN",
+        "startsWith",
+        "question",
+        "null",
+        "endsWith",
+        "255886bhvNpX",
+        "TROLLASK",
+        "Cannot\x20asign\x20a\x20number\x20on\x20string,\x20bool\x20and\x20char",
+        "toString",
+        "SYSTEM",
+        "evaluate",
+        "true",
+        "VARIABLE_TYPES",
+        "Type,\x20Name\x20or\x20arguments\x20is\x20missing!",
+        "ready",
+        "Value\x20must\x20be\x20a\x20number!",
+        "value",
+        "electron",
+        "\x20->\x20",
+        "loadFile",
+        "arguments",
+        "756065zPhoHE",
+        "path/to/file",
+        "extension",
+        "trollmath",
+        "You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type",
+        "exports",
+        "!==",
+        "../errors/Errors",
+        "You\x20cannot\x20asign\x20a\x20number\x20on\x20string",
+        "checkLogs",
+        "slice",
+        "FOR",
+        "380EcqZVa",
+        "86OHSVHp",
+        "LOG",
+        "parse",
+        "WHILE",
+        "data",
+        "includes",
+        "stdin",
+        "TROLLMULTIPLY",
+        "\x22\x20couldn\x27t\x20be\x20found",
+        "You\x20can\x20only\x20assign\x20true\x20or\x20false\x20on\x20boolean\x20types",
+        "872082XjRnHp",
+        "invokeHandler",
+        "1164877eDSPnp",
+        "length",
+        "TROLLIPC",
+        "Troll.Face.System.Log(",
+        "VARIABLES",
+        "CALL",
+        "push",
+        "You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type\x20and\x20you\x20muse\x20use\x20Double\x20Quotes:\x20\x22A\x22",
+        "You\x20cannot\x20asign\x20a\x20float\x20number\x20on\x20integer",
+        "readline",
+        "398992ZRHwzu",
+        "WINDOW",
+        "replace",
+        "CHARACTER",
+        "createInterface",
+        "advance",
+        "start",
+    ];
+    _0x3d42 = function () {
+        return _0x2ac797;
+    };
+    return _0x3d42();
+}
 class Electron {
-    ["createWindow"](_0x108c27, _0x2067b4, _0x424812, _0x2354e3, _0x548c40, _0x4459e0) {
-        const _0x2e161d = _0x5b9542,
-            { app: _0x563398, BrowserWindow: _0x5159b6, ipcMain: _0x4a7f4b } = require(_0x2e161d(0x1c0));
-        _0x563398["on"](_0x2e161d(0x1f5), () => {
-            const _0x5f326f = _0x2e161d;
-            window = new _0x5159b6({
-                minHeight: _0x2067b4 || null,
-                minWidth: _0x108c27 || null,
-                maxHeight: _0x2354e3 || null,
-                maxWidth: _0x424812 || null,
+    [_0x279d26(0x168)](_0x3a272a, _0x1d232b, _0x4dbc90, _0x50b273, _0x1c3f47, _0x524e46) {
+        const _0x75e641 = _0x279d26,
+            { app: _0x29c73f, BrowserWindow: _0x518d5a, ipcMain: _0x28d7e4 } = require(_0x75e641(0x17c));
+        _0x29c73f["on"](_0x75e641(0x179), () => {
+            const _0x26d40b = _0x75e641;
+            window = new _0x518d5a({
+                minHeight: _0x1d232b || null,
+                minWidth: _0x3a272a || null,
+                maxHeight: _0x50b273 || null,
+                maxWidth: _0x4dbc90 || null,
                 autoHideMenuBar: !![],
-                frame: _0x548c40,
-                icon: _0x4459e0[_0x5f326f(0x1ea)](/"/g, ""),
+                frame: _0x1c3f47,
+                icon: _0x524e46[_0x26d40b(0x143)](/"/g, ""),
                 webPreferences: { nodeIntegration: !![], contextIsolation: ![] },
             });
         });
     }
-    [_0x5b9542(0x1cb)](_0x392289) {
-        const _0x59250a = _0x5b9542;
-        app["on"](_0x59250a(0x1f5), () => {
-            const _0x5afe1a = _0x59250a;
-            window[_0x5afe1a(0x1cb)](_0x392289);
+    [_0x279d26(0x17e)](_0x201cea) {
+        const _0x39e1a3 = _0x279d26;
+        app["on"](_0x39e1a3(0x179), () => {
+            const _0x10c98b = _0x39e1a3;
+            window[_0x10c98b(0x17e)](_0x201cea);
         });
     }
-    [_0x5b9542(0x1f3)](_0x5529f8) {
-        const _0xe666df = _0x5b9542;
-        app["on"](_0xe666df(0x1f5), () => {
-            const _0x4d6b3b = _0xe666df;
-            window[_0x4d6b3b(0x1f3)](_0x5529f8);
+    ["loadURL"](_0x438190) {
+        const _0x2ac5c3 = _0x279d26;
+        app["on"](_0x2ac5c3(0x179), () => {
+            window["loadURL"](_0x438190);
         });
     }
-    [_0x5b9542(0x1dc)](_0x9c8e94, _0x1cbb7c, ..._0x16e380) {
-        const _0xc02234 = _0x5b9542;
-        console["log"](_0x9c8e94[_0xc02234(0x1ea)](/"/g, "")),
-            ipcMain["handle"](_0x9c8e94[_0xc02234(0x1ea)](/"/g, ""), (_0x305c7f, ..._0xb71820) => {
-                const _0x431e8e = _0xc02234,
-                    _0x2de291 = new Lexer(_0x1cbb7c);
-                _0x2de291[_0x431e8e(0x1e3)]();
+    ["invokeHandler"](_0x542235, _0x2c9678, ..._0x47182f) {
+        const _0x53a42e = _0x279d26;
+        console[_0x53a42e(0x150)](_0x542235[_0x53a42e(0x143)](/"/g, "")),
+            ipcMain[_0x53a42e(0x165)](_0x542235[_0x53a42e(0x143)](/"/g, ""), (_0x50266e, ..._0x3898bb) => {
+                const _0x20a7c9 = new Lexer(_0x2c9678);
+                _0x20a7c9["start"]();
             });
     }
 }
 let window;
 const Handler = new Electron();
-function _0x4e6b() {
-    const _0x136990 = [
-        "8610rQRBsP",
-        "ELECTRON",
-        "Troll.Face.System.Log(",
-        "Cannot\x20asign\x20a\x20float\x20value\x20to\x20int",
-        "createInterface",
-        "3644985nykUKn",
-        "any",
-        "WHILE",
-        "electron",
-        "parse",
-        "ANY",
-        "CHARACTER",
-        "float",
-        "MATH",
-        "split",
-        "VARIABLE_TYPES",
-        "===",
-        "question",
-        "CALL",
-        "loadFile",
-        "\x22\x20couldn\x27t\x20be\x20found",
-        "readline",
-        "true",
-        "You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type",
-        "createWindow",
-        "push",
-        "false",
-        "Type\x20or\x20Sum\x20is\x20missing!",
-        "TROLLADD",
-        "TROLLASK",
-        "To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22",
-        "VARIABLES",
-        "You\x20can\x20only\x20assign\x20true\x20or\x20false\x20on\x20boolean\x20types",
-        "length",
-        "data",
-        "log",
-        "invokeHandler",
-        "currIndex",
-        "1053820MhXDco",
-        "stdout",
-        "Function\x20name,\x20arguments\x20or\x20callback\x20is\x20missing!",
-        "2498244GlcvQM",
-        "Value\x20must\x20be\x20a\x20number!",
-        "start",
-        "TROLLMINUS",
-        "mathjs",
-        "null",
-        "evaluate",
-        "join",
-        "SET_VAR",
-        "replace",
-        "shift",
-        "FUNCTION",
-        "value",
-        "TROLLDIVIDE",
-        "endsWith",
-        "Text\x20to\x20say\x20must\x20be\x20a\x20string!",
-        "STRING",
-        "227654OfyxnW",
-        "loadURL",
-        "You\x20cannot\x20asign\x20a\x20float\x20number\x20on\x20integer",
-        "ready",
-        "extension",
-        "20wCItyE",
-        "includes",
-        "../constants/Constants",
-        "VARIABLE",
-        "21609171HORtnI",
-        "You\x20cannot\x20asign\x20a\x20string\x20on\x20integer",
-        "FLOAT",
-        "Cannot\x20asign\x20a\x20number\x20on\x20string,\x20bool\x20and\x20char",
-        "slice",
-        "You\x20cannot\x20asign\x20a\x20number\x20on\x20string",
-        "!==",
-        "264RRrELk",
-        "Variable\x20\x22",
-        "Channel\x20name\x20wasn\x27t\x20declared",
-        "WINDOW",
-        "arguments",
-        "Window\x20\x22",
-        "BOOLEAN",
-        "10832336UvUUct",
-        "SYSTEM",
-        "close",
-        "toString",
-        "checkLogs",
-        "\x20>>\x20",
-        "../errors/Errors",
-        "FOR",
-        "startsWith",
-        "INT",
-        "2352PUNRHW",
-        "int",
-        "funcName",
-    ];
-    _0x4e6b = function () {
-        return _0x136990;
-    };
-    return _0x4e6b();
-}
-function askQuestion(_0x544858) {
-    const _0x5dff31 = _0x5b9542,
-        _0x16bea0 = readline[_0x5dff31(0x1bc)]({ input: process["stdin"], output: process[_0x5dff31(0x1df)] });
-    return new Promise(_0x1262cc =>
-        _0x16bea0[_0x5dff31(0x1c9)](_0x544858, _0x2f478d => {
-            const _0x3192c1 = _0x5dff31;
-            _0x16bea0[_0x3192c1(0x20b)](), _0x1262cc(_0x2f478d);
+function askQuestion(_0x5c8741) {
+    const _0x2e27f1 = _0x279d26,
+        _0x31327a = readline[_0x2e27f1(0x145)]({ input: process[_0x2e27f1(0x193)], output: process["stdout"] });
+    return new Promise(_0x511dc0 =>
+        _0x31327a[_0x2e27f1(0x16d)](_0x5c8741, _0x4405ae => {
+            _0x31327a["close"](), _0x511dc0(_0x4405ae);
         })
     );
 }
-function splitMulti(_0xfec0ef, _0x3f1ef6) {
-    const _0x1021f3 = _0x5b9542;
-    var _0x4edd69 = _0x3f1ef6[0x0];
-    for (var _0x139129 = 0x1; _0x139129 < _0x3f1ef6[_0x1021f3(0x1d9)]; _0x139129++) {
-        _0xfec0ef = _0xfec0ef[_0x1021f3(0x1c6)](_0x3f1ef6[_0x139129])[_0x1021f3(0x1e8)](_0x4edd69);
+function splitMulti(_0x387f0e, _0x1af825) {
+    const _0x50fb59 = _0x279d26;
+    var _0x577df7 = _0x1af825[0x0];
+    for (var _0x413c18 = 0x1; _0x413c18 < _0x1af825[_0x50fb59(0x138)]; _0x413c18++) {
+        _0x387f0e = _0x387f0e["split"](_0x1af825[_0x413c18])["join"](_0x577df7);
     }
-    return (_0xfec0ef = _0xfec0ef[_0x1021f3(0x1c6)](_0x4edd69)), _0xfec0ef;
+    return (_0x387f0e = _0x387f0e["split"](_0x577df7)), _0x387f0e;
 }
-function changeStringToVariable(_0xc59665) {
-    const _0x383a06 = _0x5b9542;
+function changeStringToVariable(_0x2394c9) {
+    const _0x4f8063 = _0x279d26;
     return (
-        (newVal = _0xc59665[_0x383a06(0x1ea)](/\${(.*?)}/g, _0x2867ee => {
-            const _0x28275f = _0x383a06,
-                _0x3cd860 = _0x2867ee[_0x28275f(0x1ff)](0x2, _0x2867ee[_0x28275f(0x20c)]()["length"] - 0x1),
-                _0xb68974 = _0x3cd860[_0x28275f(0x1c6)](".");
-            return variables[_0xb68974[0x0]]["value"];
+        (newVal = _0x2394c9[_0x4f8063(0x143)](/\${(.*?)}/g, _0xfdd43b => {
+            const _0x133a7a = _0x4f8063,
+                _0x329e92 = _0xfdd43b[_0x133a7a(0x18a)](0x2, _0xfdd43b["toString"]()[_0x133a7a(0x138)] - 0x1),
+                _0x268877 = _0x329e92[_0x133a7a(0x152)](".");
+            return variables[_0x268877[0x0]][_0x133a7a(0x17b)];
         })),
         newVal
     );
 }
-function _0xcfae(_0x4678ae, _0x302346) {
-    const _0x4e6b6f = _0x4e6b();
-    return (
-        (_0xcfae = function (_0xcfae12, _0x3566a2) {
-            _0xcfae12 = _0xcfae12 - 0x1b1;
-            let _0xa4dd53 = _0x4e6b6f[_0xcfae12];
-            return _0xa4dd53;
-        }),
-        _0xcfae(_0x4678ae, _0x302346)
-    );
-}
-function getVariableName(_0x2e0458) {
-    const _0x59da22 = _0x5b9542,
-        _0x24eb75 = _0x2e0458;
-    let _0x461080 = _0x24eb75[_0x59da22(0x1c6)]("\x20"),
-        _0x4620c7;
-    _0x461080[0x0] == "" && (_0x461080[_0x59da22(0x1eb)](), (_0x4620c7 = _0x461080), (_0x461080 = []));
-    for (let _0x4ea250 = 0x0; _0x4ea250 < _0x4620c7?.["length"]; _0x4ea250++) {
-        _0x4620c7[_0x4ea250] && _0x461080[_0x59da22(0x1d1)](_0x4620c7[_0x4ea250]);
+function getVariableName(_0x36f123) {
+    const _0xd3f042 = _0x279d26,
+        _0x336015 = _0x36f123;
+    let _0x30b5ce = _0x336015[_0xd3f042(0x152)]("\x20"),
+        _0x563d41;
+    _0x30b5ce[0x0] == "" && (_0x30b5ce[_0xd3f042(0x14b)](), (_0x563d41 = _0x30b5ce), (_0x30b5ce = []));
+    for (let _0x51442b = 0x0; _0x51442b < _0x563d41?.["length"]; _0x51442b++) {
+        _0x563d41[_0x51442b] && _0x30b5ce[_0xd3f042(0x13d)](_0x563d41[_0x51442b]);
     }
-    if (_0x461080[_0x59da22(0x1d9)] <= 0x0) return;
+    if (_0x30b5ce["length"] <= 0x0) return;
     if (
-        !_0x461080[0x0][_0x59da22(0x1f8)](Constants["SYSTEM"][_0x59da22(0x1d7)]["ANY"]) &&
-        !_0x461080[0x0][_0x59da22(0x1f8)](Constants["SYSTEM"][_0x59da22(0x1d7)][_0x59da22(0x1b4)]) &&
-        !_0x461080[0x0]["includes"](Constants["SYSTEM"][_0x59da22(0x1d7)]["STRING"]) &&
-        !_0x461080[0x0]["includes"](Constants[_0x59da22(0x20a)][_0x59da22(0x1d7)][_0x59da22(0x208)]) &&
-        !_0x461080[0x0][_0x59da22(0x1f8)](Constants["SYSTEM"]["VARIABLES"][_0x59da22(0x1fd)]) &&
-        !_0x461080[0x0][_0x59da22(0x1f8)](Constants[_0x59da22(0x20a)][_0x59da22(0x1d7)][_0x59da22(0x1c3)])
+        !_0x30b5ce[0x0][_0xd3f042(0x192)](Constants[_0xd3f042(0x174)]["VARIABLES"][_0xd3f042(0x151)]) &&
+        !_0x30b5ce[0x0][_0xd3f042(0x192)](Constants[_0xd3f042(0x174)][_0xd3f042(0x13b)][_0xd3f042(0x155)]) &&
+        !_0x30b5ce[0x0][_0xd3f042(0x192)](Constants[_0xd3f042(0x174)][_0xd3f042(0x13b)][_0xd3f042(0x15f)]) &&
+        !_0x30b5ce[0x0][_0xd3f042(0x192)](Constants[_0xd3f042(0x174)]["VARIABLES"][_0xd3f042(0x16b)]) &&
+        !_0x30b5ce[0x0][_0xd3f042(0x192)](Constants[_0xd3f042(0x174)][_0xd3f042(0x13b)][_0xd3f042(0x167)]) &&
+        !_0x30b5ce[0x0]["includes"](Constants[_0xd3f042(0x174)][_0xd3f042(0x13b)]["CHARACTER"])
     )
         return;
-    let _0x17249e,
-        _0x5371f5,
-        _0x3ed7e9,
-        _0x39775f,
-        _0x4edd46 = ![];
-    (_0x17249e = _0x461080[0x0] || null),
-        (_0x3ed7e9 = _0x461080[0x1] || null),
-        (_0x5371f5 = _0x461080["slice"](0x3)["join"]("\x20")[_0x59da22(0x1ea)](";", ""));
-    switch (_0x17249e) {
-        case Constants[_0x59da22(0x20a)]["VARIABLES"]["INT"]: {
-            if (variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")]) return;
-            if (isNaN(_0x5371f5)) throw new SyntaxError(_0x59da22(0x1fc));
+    let _0x1a064c,
+        _0x226f3f,
+        _0x4e47b2,
+        _0x4f947c,
+        _0x28ebac = ![];
+    (_0x1a064c = _0x30b5ce[0x0] || null),
+        (_0x4e47b2 = _0x30b5ce[0x1] || null),
+        (_0x226f3f = _0x30b5ce["slice"](0x3)["join"]("\x20")["replace"](";", ""));
+    switch (_0x1a064c) {
+        case Constants["SYSTEM"]["VARIABLES"]["INT"]: {
+            if (variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")]) return;
+            if (isNaN(_0x226f3f)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20string\x20on\x20integer");
             else {
-                if (_0x5371f5[_0x59da22(0x1f8)](".")) throw new SyntaxError(_0x59da22(0x1f4));
+                if (_0x226f3f[_0xd3f042(0x192)](".")) throw new SyntaxError(_0xd3f042(0x13f));
             }
             break;
         }
-        case Constants["SYSTEM"][_0x59da22(0x1d7)]["STRING"]: {
-            if (variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")]) return;
-            if (!isNaN(_0x5371f5)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20number\x20on\x20string");
+        case Constants[_0xd3f042(0x174)][_0xd3f042(0x13b)]["STRING"]: {
+            if (variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")]) return;
+            if (!isNaN(_0x226f3f)) throw new SyntaxError(_0xd3f042(0x188));
             else {
-                if (!_0x5371f5[_0x59da22(0x1f8)]("\x22")) throw new SyntaxError(_0x59da22(0x1d6));
+                if (!_0x226f3f[_0xd3f042(0x192)]("\x22")) throw new SyntaxError(_0xd3f042(0x15b));
             }
             break;
         }
-        case Constants[_0x59da22(0x20a)][_0x59da22(0x1d7)][_0x59da22(0x208)]: {
-            if (variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")]) return;
-            if (_0x5371f5 != _0x59da22(0x1ce) && _0x5371f5 != "false") throw new SyntaxError(_0x59da22(0x1d8));
+        case Constants[_0xd3f042(0x174)]["VARIABLES"][_0xd3f042(0x16b)]: {
+            if (variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")]) return;
+            if (_0x226f3f != _0xd3f042(0x176) && _0x226f3f != _0xd3f042(0x148))
+                throw new SyntaxError("You\x20can\x20only\x20assign\x20true\x20or\x20false\x20on\x20boolean\x20types");
             break;
         }
-        case Constants[_0x59da22(0x20a)][_0x59da22(0x1d7)][_0x59da22(0x1c3)]: {
-            if (variables[_0x5371f5["replace"](/ /g, "")]) return;
-            if (_0x5371f5[_0x59da22(0x1d9)] > 0x1 && !_0x5371f5[_0x59da22(0x1f8)]("\x22"))
-                throw new SyntaxError(
-                    "You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type\x20and\x20you\x20muse\x20use\x20Double\x20Quotes:\x20\x22A\x22"
-                );
+        case Constants[_0xd3f042(0x174)]["VARIABLES"][_0xd3f042(0x144)]: {
+            if (variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")]) return;
+            if (_0x226f3f[_0xd3f042(0x138)] > 0x1 && !_0x226f3f["includes"]("\x22")) throw new SyntaxError(_0xd3f042(0x13e));
             else {
-                if (_0x5371f5[_0x59da22(0x1ea)](/"/g, "")["length"] > 0x1) throw new SyntaxError(_0x59da22(0x1cf));
+                if (_0x226f3f[_0xd3f042(0x143)](/"/g, "")[_0xd3f042(0x138)] > 0x1) throw new SyntaxError(_0xd3f042(0x184));
                 else {
-                    if (!isNaN(_0x5371f5)) throw new SyntaxError(_0x59da22(0x200));
+                    if (!isNaN(_0x226f3f)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20number\x20on\x20string");
                     else {
-                        if (!_0x5371f5[_0x59da22(0x1f8)]("\x22"))
-                            throw new SyntaxError("To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22");
+                        if (!_0x226f3f[_0xd3f042(0x192)]("\x22")) throw new SyntaxError(_0xd3f042(0x15b));
                     }
                 }
             }
             break;
         }
-        case Constants[_0x59da22(0x20a)][_0x59da22(0x1d7)]["ANY"]: {
-            if (variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")]) return;
-            if (isNaN(_0x5371f5) && !_0x5371f5["includes"]("\x22")) throw new SyntaxError(_0x59da22(0x1d6));
+        case Constants["SYSTEM"][_0xd3f042(0x13b)][_0xd3f042(0x151)]: {
+            if (variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")]) return;
+            if (isNaN(_0x226f3f) && !_0x226f3f[_0xd3f042(0x192)]("\x22"))
+                throw new SyntaxError("To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22");
             break;
         }
     }
-    _0x17249e === Constants["SYSTEM"][_0x59da22(0x1d7)]["BOOLEAN"] &&
-        (_0x5371f5 = JSON["parse"](_0x461080["slice"](0x3)[_0x59da22(0x1e8)]("\x20")[_0x59da22(0x1ea)](";", "")));
-    if (_0x5371f5 == !![] || _0x5371f5 == ![]) _0x39775f = Constants["SYSTEM"]["VARIABLE_TYPES"][_0x59da22(0x208)];
+    _0x1a064c === Constants[_0xd3f042(0x174)]["VARIABLES"]["BOOLEAN"] &&
+        (_0x226f3f = JSON[_0xd3f042(0x18f)](_0x30b5ce[_0xd3f042(0x18a)](0x3)["join"]("\x20")[_0xd3f042(0x143)](";", "")));
+    if (_0x226f3f == !![] || _0x226f3f == ![]) _0x4f947c = Constants[_0xd3f042(0x174)][_0xd3f042(0x177)][_0xd3f042(0x16b)];
     else {
-        if (_0x5371f5["includes"]("\x22")) _0x39775f = Constants["SYSTEM"][_0x59da22(0x1c7)]["STRING"];
+        if (_0x226f3f[_0xd3f042(0x192)]("\x22")) _0x4f947c = Constants[_0xd3f042(0x174)]["VARIABLE_TYPES"][_0xd3f042(0x15f)];
         else {
-            if (_0x5371f5["includes"](".")) _0x39775f = Constants["SYSTEM"]["VARIABLE_TYPES"][_0x59da22(0x1fd)];
+            if (_0x226f3f[_0xd3f042(0x192)](".")) _0x4f947c = Constants[_0xd3f042(0x174)][_0xd3f042(0x177)][_0xd3f042(0x167)];
             else {
-                if (isNaN(_0x5371f5)) _0x39775f = Constants[_0x59da22(0x20a)][_0x59da22(0x1c7)][_0x59da22(0x1fa)];
-                else _0x39775f = Constants[_0x59da22(0x20a)][_0x59da22(0x1c7)]["INT"];
+                if (isNaN(_0x226f3f)) _0x4f947c = Constants[_0xd3f042(0x174)]["VARIABLE_TYPES"][_0xd3f042(0x154)];
+                else _0x4f947c = Constants["SYSTEM"][_0xd3f042(0x177)][_0xd3f042(0x155)];
             }
         }
     }
-    if (_0x5371f5 && _0x5371f5 != ![] && _0x5371f5 != !![]) {
-        if (variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")])
-            _0x5371f5 = variables[_0x5371f5[_0x59da22(0x1ea)](/ /g, "")]["value"];
+    if (_0x226f3f && _0x226f3f != ![] && _0x226f3f != !![]) {
+        if (variables[_0x226f3f["replace"](/ /g, "")])
+            _0x226f3f = variables[_0x226f3f[_0xd3f042(0x143)](/ /g, "")][_0xd3f042(0x17b)];
     }
-    variables[_0x3ed7e9] = { value: _0x5371f5, extension: _0x17249e, type: _0x39775f };
-    if (_0x5371f5 == !![] || _0x5371f5 == ![]) return;
-    if (!isNaN(_0x5371f5)) variables[_0x3ed7e9][_0x59da22(0x1ed)] = parseInt(_0x5371f5);
-    _0x5371f5[_0x59da22(0x1f8)](".") && (variables[_0x3ed7e9][_0x59da22(0x1ed)] = parseFloat(_0x5371f5));
+    variables[_0x4e47b2] = { value: _0x226f3f, extension: _0x1a064c, type: _0x4f947c };
+    if (_0x226f3f == !![] || _0x226f3f == ![]) return;
+    if (!isNaN(_0x226f3f)) variables[_0x4e47b2]["value"] = parseInt(_0x226f3f);
+    _0x226f3f["includes"](".") && (variables[_0x4e47b2][_0xd3f042(0x17b)] = parseFloat(_0x226f3f));
 }
-function getIfStatement(_0x286ce5) {
-    const _0x2bdab3 = _0x5b9542,
-        _0xc4bd4c = _0x286ce5["split"](":");
-    if (_0xc4bd4c[_0x2bdab3(0x1d9)] <= 0x1) return;
-    if (_0xc4bd4c[0x0][_0x2bdab3(0x1ea)](/ /g, "") != Constants["IF"]) return;
-    const _0x199ca2 = _0xc4bd4c[0x3][_0x2bdab3(0x1c6)](">>");
-    let _0x3a9383 =
-            variables[_0xc4bd4c[0x1]["replace"](/ /g, "")]?.[_0x2bdab3(0x1ed)] || _0xc4bd4c[0x1][_0x2bdab3(0x1ea)](/ /g, ""),
-        _0x1a2c1a = _0xc4bd4c[0x2][_0x2bdab3(0x1ea)](/ /g, ""),
-        _0x5cebab =
-            variables[_0x199ca2[0x0]["replace"](/ /g, "")]?.[_0x2bdab3(0x1ed)] || _0x199ca2[0x0][_0x2bdab3(0x1ea)](/ /g, ""),
-        _0x33afcb = _0x199ca2[0x1][_0x2bdab3(0x1ea)](/{|}/g, "")["split"](";"),
-        _0x49fa03 = ![];
-    if (!isNaN(_0x5cebab)) _0x5cebab = parseFloat(_0x5cebab);
-    if (!isNaN(_0x3a9383)) _0x3a9383 = parseFloat(_0x3a9383);
-    (variables[_0xc4bd4c[0x1][_0x2bdab3(0x1ea)](/ /g, "")]?.["value"] === !![] ||
-        variables[_0xc4bd4c[0x1]["replace"](/ /g, "")]?.[_0x2bdab3(0x1ed)] === ![]) &&
-        (_0x3a9383 = variables[_0xc4bd4c[0x1]["replace"](/ /g, "")]?.[_0x2bdab3(0x1ed)]);
-    (variables[_0x199ca2[0x0][_0x2bdab3(0x1ea)](/ /g, "")]?.[_0x2bdab3(0x1ed)] === !![] ||
-        variables[_0x199ca2[0x0][_0x2bdab3(0x1ea)](/ /g, "")]?.[_0x2bdab3(0x1ed)] === ![]) &&
-        (_0x5cebab = variables[_0x199ca2[0x0]["replace"](/ /g, "")]?.[_0x2bdab3(0x1ed)]);
-    if (_0x3a9383 == "false" || _0x3a9383 == _0x2bdab3(0x1ce)) _0x3a9383 = JSON["parse"](_0x3a9383);
-    if (_0x5cebab == _0x2bdab3(0x1d2) || _0x5cebab == _0x2bdab3(0x1ce)) _0x5cebab = JSON["parse"](_0x5cebab);
-    switch (_0x1a2c1a) {
+function getIfStatement(_0x197f8f) {
+    const _0x117a91 = _0x279d26,
+        _0x49e7d1 = _0x197f8f[_0x117a91(0x152)](":");
+    if (_0x49e7d1[_0x117a91(0x138)] <= 0x1) return;
+    if (_0x49e7d1[0x0][_0x117a91(0x143)](/ /g, "") != Constants["IF"]) return;
+    const _0x6771a3 = _0x49e7d1[0x3][_0x117a91(0x152)](">>");
+    let _0x43cd3d =
+            variables[_0x49e7d1[0x1][_0x117a91(0x143)](/ /g, "")]?.[_0x117a91(0x17b)] ||
+            _0x49e7d1[0x1][_0x117a91(0x143)](/ /g, ""),
+        _0xf6a2f9 = _0x49e7d1[0x2]["replace"](/ /g, ""),
+        _0x10dc44 =
+            variables[_0x6771a3[0x0][_0x117a91(0x143)](/ /g, "")]?.["value"] || _0x6771a3[0x0][_0x117a91(0x143)](/ /g, ""),
+        _0x4a7c6b = _0x6771a3[0x1][_0x117a91(0x143)](/{|}/g, "")[_0x117a91(0x152)](";"),
+        _0x106995 = ![];
+    if (!isNaN(_0x10dc44)) _0x10dc44 = parseFloat(_0x10dc44);
+    if (!isNaN(_0x43cd3d)) _0x43cd3d = parseFloat(_0x43cd3d);
+    (variables[_0x49e7d1[0x1]["replace"](/ /g, "")]?.[_0x117a91(0x17b)] === !![] ||
+        variables[_0x49e7d1[0x1][_0x117a91(0x143)](/ /g, "")]?.[_0x117a91(0x17b)] === ![]) &&
+        (_0x43cd3d = variables[_0x49e7d1[0x1][_0x117a91(0x143)](/ /g, "")]?.["value"]);
+    (variables[_0x6771a3[0x0][_0x117a91(0x143)](/ /g, "")]?.[_0x117a91(0x17b)] === !![] ||
+        variables[_0x6771a3[0x0][_0x117a91(0x143)](/ /g, "")]?.["value"] === ![]) &&
+        (_0x10dc44 = variables[_0x6771a3[0x0]["replace"](/ /g, "")]?.["value"]);
+    if (_0x43cd3d == _0x117a91(0x148) || _0x43cd3d == _0x117a91(0x176)) _0x43cd3d = JSON[_0x117a91(0x18f)](_0x43cd3d);
+    if (_0x10dc44 == _0x117a91(0x148) || _0x10dc44 == _0x117a91(0x176)) _0x10dc44 = JSON[_0x117a91(0x18f)](_0x10dc44);
+    switch (_0xf6a2f9) {
         case "==": {
-            if (_0x3a9383 == _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d == _0x10dc44) _0x106995 = !![];
             break;
         }
-        case _0x2bdab3(0x1c8): {
-            if (_0x3a9383 === _0x5cebab) _0x49fa03 = !![];
+        case "===": {
+            if (_0x43cd3d === _0x10dc44) _0x106995 = !![];
             break;
         }
         case "!=": {
-            if (_0x3a9383 != _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d != _0x10dc44) _0x106995 = !![];
             break;
         }
-        case _0x2bdab3(0x201): {
-            if (_0x3a9383 !== _0x5cebab) _0x49fa03 = !![];
+        case _0x117a91(0x186): {
+            if (_0x43cd3d !== _0x10dc44) _0x106995 = !![];
             break;
         }
         case "<=": {
-            if (_0x3a9383 <= _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d <= _0x10dc44) _0x106995 = !![];
             break;
         }
         case ">=": {
-            if (_0x3a9383 >= _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d >= _0x10dc44) _0x106995 = !![];
             break;
         }
         case ">": {
-            if (_0x3a9383 > _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d > _0x10dc44) _0x106995 = !![];
             break;
         }
         case "<": {
-            if (_0x3a9383 < _0x5cebab) _0x49fa03 = !![];
+            if (_0x43cd3d < _0x10dc44) _0x106995 = !![];
             break;
         }
     }
-    if (_0x49fa03) {
-        const _0x42f49e = new Lexer(_0x33afcb);
-        _0x42f49e[_0x2bdab3(0x1e3)]();
+    if (_0x106995) {
+        const _0x49422c = new Lexer(_0x4a7c6b);
+        _0x49422c["start"]();
     }
 }
-function getWhileStatement(_0x4adb67) {
-    const _0x50a769 = _0x5b9542,
-        _0x23e20f = _0x4adb67[_0x50a769(0x1c6)](":");
-    if (_0x23e20f[_0x50a769(0x1d9)] <= 0x1) return;
-    if (_0x23e20f[0x0]["replace"](/ /g, "") != Constants[_0x50a769(0x1bf)]) return;
-    const _0x4f4fd9 = _0x23e20f[0x3][_0x50a769(0x1c6)](">>");
-    let _0x52984a =
-            variables[_0x23e20f[0x1]["replace"](/ /g, "")]?.[_0x50a769(0x1ed)] || _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, ""),
-        _0x2814b5 = _0x23e20f[0x2][_0x50a769(0x1ea)](/ /g, ""),
-        _0x2dfa76 =
-            variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.["value"] || _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""),
-        _0xec1310 = _0x4f4fd9[0x1]["replace"](/{|}/g, "")[_0x50a769(0x1c6)](";");
-    if (!isNaN(_0x2dfa76)) _0x2dfa76 = parseFloat(_0x2dfa76);
-    if (!isNaN(_0x52984a)) _0x52984a = parseFloat(_0x52984a);
-    (variables[_0x23e20f[0x1]["replace"](/ /g, "")]?.[_0x50a769(0x1ed)] === !![] ||
-        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] === ![]) &&
-        (_0x52984a = variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)]);
-    (variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] === !![] ||
-        variables[_0x4f4fd9[0x0]["replace"](/ /g, "")]?.["value"] === ![]) &&
-        (_0x2dfa76 = variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)]);
-    if (_0x52984a == _0x50a769(0x1d2) || _0x52984a == "true") _0x52984a = JSON[_0x50a769(0x1c1)](_0x52984a);
-    if (_0x2dfa76 == _0x50a769(0x1d2) || _0x2dfa76 == _0x50a769(0x1ce)) _0x2dfa76 = JSON[_0x50a769(0x1c1)](_0x2dfa76);
-    switch (_0x2814b5) {
+function getWhileStatement(_0x4f8532) {
+    const _0x352bf6 = _0x279d26,
+        _0x43786a = _0x4f8532[_0x352bf6(0x152)](":");
+    if (_0x43786a["length"] <= 0x1) return;
+    if (_0x43786a[0x0]["replace"](/ /g, "") != Constants[_0x352bf6(0x190)]) return;
+    const _0x168ec5 = _0x43786a[0x3][_0x352bf6(0x152)](">>");
+    let _0x5a7dca =
+            variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.["value"] || _0x43786a[0x1][_0x352bf6(0x143)](/ /g, ""),
+        _0x3a1006 = _0x43786a[0x2][_0x352bf6(0x143)](/ /g, ""),
+        _0xb10894 =
+            variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+            _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""),
+        _0x3e2843 = _0x168ec5[0x1][_0x352bf6(0x143)](/{|}/g, "")[_0x352bf6(0x152)](";");
+    if (!isNaN(_0xb10894)) _0xb10894 = parseFloat(_0xb10894);
+    if (!isNaN(_0x5a7dca)) _0x5a7dca = parseFloat(_0x5a7dca);
+    (variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] === !![] ||
+        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.["value"] === ![]) &&
+        (_0x5a7dca = variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)]);
+    (variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] === !![] ||
+        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] === ![]) &&
+        (_0xb10894 = variables[_0x168ec5[0x0]["replace"](/ /g, "")]?.["value"]);
+    if (_0x5a7dca == _0x352bf6(0x148) || _0x5a7dca == _0x352bf6(0x176)) _0x5a7dca = JSON[_0x352bf6(0x18f)](_0x5a7dca);
+    if (_0xb10894 == _0x352bf6(0x148) || _0xb10894 == _0x352bf6(0x176)) _0xb10894 = JSON[_0x352bf6(0x18f)](_0xb10894);
+    switch (_0x3a1006) {
         case "==": {
-            while (_0x52984a == _0x2dfa76) {
-                const _0x34e00a = new Lexer(_0xec1310);
-                _0x34e00a["start"](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.["value"] ||
-                        _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""));
+            while (_0x5a7dca == _0xb10894) {
+                const _0x2edd62 = new Lexer(_0x3e2843);
+                _0x2edd62["start"](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.["value"] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.["value"] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
         case "===": {
-            while (_0x52984a === _0x2dfa76) {
-                const _0xe3f8ce = new Lexer(_0xec1310);
-                _0xe3f8ce["start"](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1]["replace"](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""));
+            while (_0x5a7dca === _0xb10894) {
+                const _0xf6e788 = new Lexer(_0x3e2843);
+                _0xf6e788[_0x352bf6(0x147)](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1]["replace"](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0]["replace"](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
         case "!=": {
-            while (_0x52984a != _0x2dfa76) {
-                const _0x105727 = new Lexer(_0xec1310);
-                _0x105727[_0x50a769(0x1e3)](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1]["replace"](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""));
+            while (_0x5a7dca != _0xb10894) {
+                const _0x43ae3f = new Lexer(_0x3e2843);
+                _0x43ae3f["start"](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0]["replace"](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
-        case _0x50a769(0x201): {
-            while (_0x52984a !== _0x2dfa76) {
-                const _0x1335df = new Lexer(_0xec1310);
-                _0x1335df["start"](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0]["replace"](/ /g, "")]?.["value"] || _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""));
+        case _0x352bf6(0x186): {
+            while (_0x5a7dca !== _0xb10894) {
+                const _0x16e1c3 = new Lexer(_0x3e2843);
+                _0x16e1c3[_0x352bf6(0x147)](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
         case "<=": {
-            while (_0x52984a <= _0x2dfa76) {
-                const _0x21d4d6 = new Lexer(_0xec1310);
-                _0x21d4d6[_0x50a769(0x1e3)](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1]["replace"](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x4f4fd9[0x0]["replace"](/ /g, ""));
+            while (_0x5a7dca <= _0xb10894) {
+                const _0x658ce2 = new Lexer(_0x3e2843);
+                _0x658ce2[_0x352bf6(0x147)](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
         case ">=": {
-            while (_0x52984a >= _0x2dfa76) {
-                const _0x1f5762 = new Lexer(_0xec1310);
-                _0x1f5762[_0x50a769(0x1e3)](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1]["replace"](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.["value"] || _0x4f4fd9[0x0]["replace"](/ /g, ""));
+            while (_0x5a7dca >= _0xb10894) {
+                const _0x4c0139 = new Lexer(_0x3e2843);
+                _0x4c0139[_0x352bf6(0x147)](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.["value"] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.["value"] || _0x168ec5[0x0]["replace"](/ /g, ""));
             }
             break;
         }
         case ">": {
-            while (_0x52984a > _0x2dfa76) {
-                const _0x45963e = new Lexer(_0xec1310);
-                _0x45963e[_0x50a769(0x1e3)](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x4f4fd9[0x0]["replace"](/ /g, ""));
+            while (_0x5a7dca > _0xb10894) {
+                const _0x963adf = new Lexer(_0x3e2843);
+                _0x963adf["start"](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1]["replace"](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x43786a[0x1]["replace"](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
         case "<": {
-            while (_0x52984a < _0x2dfa76) {
-                const _0x39d44b = new Lexer(_0xec1310);
-                _0x39d44b[_0x50a769(0x1e3)](),
-                    (_0x52984a =
-                        variables[_0x23e20f[0x1]["replace"](/ /g, "")]?.[_0x50a769(0x1ed)] ||
-                        _0x23e20f[0x1][_0x50a769(0x1ea)](/ /g, "")),
-                    (_0x2dfa76 =
-                        variables[_0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, "")]?.["value"] ||
-                        _0x4f4fd9[0x0][_0x50a769(0x1ea)](/ /g, ""));
+            while (_0x5a7dca < _0xb10894) {
+                const _0x39f1b0 = new Lexer(_0x3e2843);
+                _0x39f1b0["start"](),
+                    (_0x5a7dca =
+                        variables[_0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")]?.["value"] ||
+                        _0x43786a[0x1][_0x352bf6(0x143)](/ /g, "")),
+                    (_0xb10894 =
+                        variables[_0x168ec5[0x0][_0x352bf6(0x143)](/ /g, "")]?.[_0x352bf6(0x17b)] ||
+                        _0x168ec5[0x0][_0x352bf6(0x143)](/ /g, ""));
             }
             break;
         }
     }
 }
-function getForStatement(_0x1a85a0) {
-    const _0x591698 = _0x5b9542,
-        _0x673ac6 = _0x1a85a0[_0x591698(0x1c6)](":");
-    if (_0x673ac6["length"] <= 0x1) return;
-    if (_0x673ac6[0x0][_0x591698(0x1ea)](/ /g, "") != Constants[_0x591698(0x1b2)]) return;
-    const _0x3ef4da = _0x673ac6[0x1][_0x591698(0x1c6)](">>"),
-        _0x35bc8d = _0x3ef4da[0x1][_0x591698(0x1ea)](/{|}/g, "")["split"](";"),
-        _0x56de6b = parseInt(_0x673ac6[0x1]);
-    for (let _0x13e970 = 0x0; _0x13e970 < _0x56de6b; _0x13e970++) {
-        const _0x523761 = new Lexer(_0x35bc8d);
-        _0x523761["start"]();
+function getForStatement(_0x3a2a50) {
+    const _0x347b64 = _0x279d26,
+        _0x5e12b9 = _0x3a2a50[_0x347b64(0x152)](":");
+    if (_0x5e12b9[_0x347b64(0x138)] <= 0x1) return;
+    if (_0x5e12b9[0x0][_0x347b64(0x143)](/ /g, "") != Constants[_0x347b64(0x18b)]) return;
+    const _0x507691 = _0x5e12b9[0x1]["split"](">>"),
+        _0x2d939a = _0x507691[0x1][_0x347b64(0x143)](/{|}/g, "")[_0x347b64(0x152)](";"),
+        _0x2a57c5 = parseInt(_0x5e12b9[0x1]);
+    for (let _0x54fadc = 0x0; _0x54fadc < _0x2a57c5; _0x54fadc++) {
+        const _0x12ce27 = new Lexer(_0x2d939a);
+        _0x12ce27[_0x347b64(0x147)]();
     }
 }
-function getFunctions(_0x52fbbb) {
-    const _0x265418 = _0x5b9542,
-        _0x39a49e = _0x52fbbb[_0x265418(0x1c6)]("\x20>>\x20");
-    if (_0x39a49e[0x0] !== Constants["FUNCTION"]) return;
-    if (_0x39a49e[0x2] === _0x265418(0x1e6)) _0x39a49e[0x2] = null;
-    if (_0x39a49e["length"] < 0x4) throw new SyntaxError(_0x265418(0x1e0));
-    let _0x4f20da = {
-        funcType: _0x39a49e[0x0],
-        funcName: _0x39a49e[0x1],
-        arguments: _0x39a49e[0x2] ? _0x39a49e[0x2][_0x265418(0x1c6)](",\x20") : null,
-        callback: _0x39a49e[0x3][_0x265418(0x1ea)](/{|}/g, "")[_0x265418(0x1c6)](/;/g),
+function getFunctions(_0x25c2de) {
+    const _0x10a23a = _0x279d26,
+        _0x1ad521 = _0x25c2de[_0x10a23a(0x152)]("\x20>>\x20");
+    if (_0x1ad521[0x0] !== Constants["FUNCTION"]) return;
+    if (_0x1ad521[0x2] === "null") _0x1ad521[0x2] = null;
+    if (_0x1ad521[_0x10a23a(0x138)] < 0x4)
+        throw new SyntaxError("Function\x20name,\x20arguments\x20or\x20callback\x20is\x20missing!");
+    let _0xbba609 = {
+        funcType: _0x1ad521[0x0],
+        funcName: _0x1ad521[0x1],
+        arguments: _0x1ad521[0x2] ? _0x1ad521[0x2]["split"](",\x20") : null,
+        callback: _0x1ad521[0x3][_0x10a23a(0x143)](/{|}/g, "")[_0x10a23a(0x152)](/;/g),
     };
-    functions[_0x4f20da[_0x265418(0x1b7)]] = _0x4f20da;
+    functions[_0xbba609[_0x10a23a(0x164)]] = _0xbba609;
 }
-function getCalledFunction(_0x2f6dbf) {
-    const _0x46d436 = _0x5b9542,
-        _0x44b695 = _0x2f6dbf[_0x46d436(0x1c6)](_0x46d436(0x20e));
-    if (_0x44b695[0x0] !== Constants[_0x46d436(0x1ca)]) return;
-    if (_0x44b695[_0x46d436(0x1d9)] < 0x3) throw new SyntaxError("Type,\x20Name\x20or\x20arguments\x20is\x20missing!");
-    if (functions[_0x44b695[0x1]][_0x46d436(0x206)])
-        for (const _0x3af351 of functions[_0x44b695[0x1]][_0x46d436(0x206)]) {
-            if (_0x3af351 == null) return (args = null);
-            const _0x4e63b2 = _0x44b695[0x2][_0x46d436(0x1ea)](/\(|\)/g, "")[_0x46d436(0x1c6)](",\x20");
-            for (const _0x2459a1 in functions[_0x44b695[0x1]][_0x46d436(0x206)]) {
-                variables[functions[_0x44b695[0x1]][_0x46d436(0x206)][_0x2459a1]] = {
-                    value: _0x4e63b2[_0x2459a1][_0x46d436(0x1ea)](/"/g, ""),
-                    extension: _0x46d436(0x1be),
-                    type: "any",
+function getCalledFunction(_0x2f0444) {
+    const _0x32c9fb = _0x279d26,
+        _0x187df7 = _0x2f0444["split"](_0x32c9fb(0x16a));
+    if (_0x187df7[0x0] !== Constants[_0x32c9fb(0x13c)]) return;
+    if (_0x187df7["length"] < 0x3) throw new SyntaxError(_0x32c9fb(0x178));
+    if (functions[_0x187df7[0x1]][_0x32c9fb(0x17f)])
+        for (const _0x39c4eb of functions[_0x187df7[0x1]][_0x32c9fb(0x17f)]) {
+            if (_0x39c4eb == null) return (args = null);
+            const _0x53e126 = _0x187df7[0x2][_0x32c9fb(0x143)](/\(|\)/g, "")[_0x32c9fb(0x152)](",\x20");
+            for (const _0x21bf29 in functions[_0x187df7[0x1]]["arguments"]) {
+                variables[functions[_0x187df7[0x1]][_0x32c9fb(0x17f)][_0x21bf29]] = {
+                    value: _0x53e126[_0x21bf29][_0x32c9fb(0x143)](/"/g, ""),
+                    extension: _0x32c9fb(0x14e),
+                    type: _0x32c9fb(0x14e),
                 };
             }
         }
-    const _0x1ecf68 = new Lexer(functions[_0x44b695[0x1]]["callback"]);
-    _0x1ecf68[_0x46d436(0x1e3)]();
+    const _0x5b084e = new Lexer(functions[_0x187df7[0x1]][_0x32c9fb(0x14f)]);
+    _0x5b084e[_0x32c9fb(0x147)]();
 }
-function getMath(_0x488281) {
-    const _0x2502cd = _0x5b9542,
-        _0xc6e575 = _0x488281["split"]("\x20->\x20");
-    if (_0xc6e575[0x0] !== Constants[_0x2502cd(0x1c5)]) return;
-    if (_0xc6e575 < 0x3) throw new SyntaxError(_0x2502cd(0x1d3));
-    const _0x57ef74 = changeStringToVariable(_0xc6e575[0x2][_0x2502cd(0x1ea)](/;/g, "")),
-        _0xc2bada = math[_0x2502cd(0x1e7)](_0x57ef74);
-    variables[_0xc6e575[0x1]] = { value: _0xc2bada, extension: "trollmath", type: "trollmath" };
+function getMath(_0x529530) {
+    const _0x979723 = _0x279d26,
+        _0x49fdb1 = _0x529530["split"](_0x979723(0x17d));
+    if (_0x49fdb1[0x0] !== Constants[_0x979723(0x153)]) return;
+    if (_0x49fdb1 < 0x3) throw new SyntaxError(_0x979723(0x157));
+    const _0x520c8e = changeStringToVariable(_0x49fdb1[0x2][_0x979723(0x143)](/;/g, "")),
+        _0x3ef5c5 = math[_0x979723(0x175)](_0x520c8e);
+    variables[_0x49fdb1[0x1]] = { value: _0x3ef5c5, extension: _0x979723(0x183), type: _0x979723(0x183) };
 }
-function getSetVar(_0x385494) {
-    const _0x56fbf0 = _0x5b9542,
-        _0x36566d = _0x385494[_0x56fbf0(0x1c6)]("\x20");
-    if (_0x36566d[0x0] == "") _0x36566d[_0x56fbf0(0x1eb)]();
-    if (_0x36566d[_0x56fbf0(0x1d9)] <= 0x0) return;
-    if (_0x36566d[0x0][_0x56fbf0(0x1ea)](/ /g, "") !== Constants[_0x56fbf0(0x1e9)]) return;
-    const _0x277415 = _0x36566d[0x1];
-    let _0x23ba56 = _0x36566d["slice"](0x3)["join"]("\x20");
-    if (!variables[_0x277415]) throw new SyntaxError("Variable\x20\x22" + _0x277415 + _0x56fbf0(0x1cc));
-    isNaN(_0x23ba56)
-        ? (variables[_0x277415][_0x56fbf0(0x1ed)] = _0x23ba56)
-        : (variables[_0x277415][_0x56fbf0(0x1ed)] = parseFloat(_0x23ba56));
-    if (variables[_0x23ba56[_0x56fbf0(0x1ea)](/ /g, "")])
-        variables[_0x277415][_0x56fbf0(0x1ed)] = variables[_0x23ba56["replace"](/ /g, "")][_0x56fbf0(0x1ed)];
-    switch (variables[_0x277415][_0x56fbf0(0x1f6)]) {
-        case Constants[_0x56fbf0(0x20a)][_0x56fbf0(0x1d7)]["INT"]: {
-            if (variables[_0x23ba56[_0x56fbf0(0x1ea)](/ /g, "")]) return;
-            if (isNaN(_0x23ba56)) throw new SyntaxError(_0x56fbf0(0x1fc));
+function getSetVar(_0x1e1245) {
+    const _0x5ec1db = _0x279d26,
+        _0x294f4f = _0x1e1245[_0x5ec1db(0x152)]("\x20");
+    if (_0x294f4f[0x0] == "") _0x294f4f["shift"]();
+    if (_0x294f4f[_0x5ec1db(0x138)] <= 0x0) return;
+    if (_0x294f4f[0x0]["replace"](/ /g, "") !== Constants["SET_VAR"]) return;
+    const _0x4e42e2 = _0x294f4f[0x1];
+    let _0x1ff3dc = _0x294f4f["slice"](0x3)[_0x5ec1db(0x163)]("\x20");
+    if (!variables[_0x4e42e2]) throw new SyntaxError(_0x5ec1db(0x169) + _0x4e42e2 + _0x5ec1db(0x195));
+    isNaN(_0x1ff3dc)
+        ? (variables[_0x4e42e2]["value"] = _0x1ff3dc)
+        : (variables[_0x4e42e2][_0x5ec1db(0x17b)] = parseFloat(_0x1ff3dc));
+    if (variables[_0x1ff3dc[_0x5ec1db(0x143)](/ /g, "")])
+        variables[_0x4e42e2]["value"] = variables[_0x1ff3dc["replace"](/ /g, "")][_0x5ec1db(0x17b)];
+    switch (variables[_0x4e42e2][_0x5ec1db(0x182)]) {
+        case Constants[_0x5ec1db(0x174)][_0x5ec1db(0x13b)][_0x5ec1db(0x155)]: {
+            if (variables[_0x1ff3dc[_0x5ec1db(0x143)](/ /g, "")]) return;
+            if (isNaN(_0x1ff3dc)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20string\x20on\x20integer");
             else {
-                if (_0x23ba56[_0x56fbf0(0x1f8)](".")) throw new SyntaxError(_0x56fbf0(0x1f4));
+                if (_0x1ff3dc[_0x5ec1db(0x192)]("."))
+                    throw new SyntaxError("You\x20cannot\x20asign\x20a\x20float\x20number\x20on\x20integer");
             }
             break;
         }
-        case Constants[_0x56fbf0(0x20a)]["VARIABLES"][_0x56fbf0(0x1f1)]: {
-            if (variables[_0x23ba56["replace"](/ /g, "")]) return;
-            if (!isNaN(_0x23ba56)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20number\x20on\x20string");
+        case Constants["SYSTEM"][_0x5ec1db(0x13b)][_0x5ec1db(0x15f)]: {
+            if (variables[_0x1ff3dc[_0x5ec1db(0x143)](/ /g, "")]) return;
+            if (!isNaN(_0x1ff3dc)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20number\x20on\x20string");
             else {
-                if (!_0x23ba56["includes"]("\x22"))
+                if (!_0x1ff3dc[_0x5ec1db(0x192)]("\x22"))
                     throw new SyntaxError("To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22");
             }
             break;
         }
-        case Constants[_0x56fbf0(0x20a)][_0x56fbf0(0x1d7)][_0x56fbf0(0x208)]: {
-            if (variables[_0x23ba56[_0x56fbf0(0x1ea)](/ /g, "")]) return;
-            if (_0x23ba56 != _0x56fbf0(0x1ce) && _0x23ba56 != _0x56fbf0(0x1d2)) throw new SyntaxError(_0x56fbf0(0x1d8));
+        case Constants[_0x5ec1db(0x174)][_0x5ec1db(0x13b)][_0x5ec1db(0x16b)]: {
+            if (variables[_0x1ff3dc[_0x5ec1db(0x143)](/ /g, "")]) return;
+            if (_0x1ff3dc != _0x5ec1db(0x176) && _0x1ff3dc != "false") throw new SyntaxError(_0x5ec1db(0x196));
             break;
         }
-        case Constants[_0x56fbf0(0x20a)]["VARIABLES"]["CHARACTER"]: {
-            if (variables[_0x23ba56[_0x56fbf0(0x1ea)](/ /g, "")]) return;
-            if (_0x23ba56["length"] > 0x1 && !_0x23ba56[_0x56fbf0(0x1f8)]("\x22"))
-                throw new SyntaxError(
-                    "You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type\x20and\x20you\x20muse\x20use\x20Double\x20Quotes:\x20\x22A\x22"
-                );
+        case Constants[_0x5ec1db(0x174)]["VARIABLES"]["CHARACTER"]: {
+            if (variables[_0x1ff3dc["replace"](/ /g, "")]) return;
+            if (_0x1ff3dc[_0x5ec1db(0x138)] > 0x1 && !_0x1ff3dc[_0x5ec1db(0x192)]("\x22"))
+                throw new SyntaxError(_0x5ec1db(0x13e));
             else {
-                if (_0x23ba56["replace"](/"/g, "")[_0x56fbf0(0x1d9)] > 0x1)
-                    throw new SyntaxError("You\x20can\x20only\x20have\x20one\x20character\x20in\x20character\x20type");
+                if (_0x1ff3dc[_0x5ec1db(0x143)](/"/g, "")[_0x5ec1db(0x138)] > 0x1) throw new SyntaxError(_0x5ec1db(0x184));
                 else {
-                    if (!isNaN(_0x23ba56)) throw new SyntaxError("You\x20cannot\x20asign\x20a\x20number\x20on\x20string");
+                    if (!isNaN(_0x1ff3dc)) throw new SyntaxError(_0x5ec1db(0x188));
                     else {
-                        if (!_0x23ba56[_0x56fbf0(0x1f8)]("\x22"))
-                            throw new SyntaxError("To\x20make\x20a\x20string\x20you\x20must\x20do\x20\x22text\x22");
+                        if (!_0x1ff3dc[_0x5ec1db(0x192)]("\x22")) throw new SyntaxError(_0x5ec1db(0x15b));
                     }
                 }
             }
             break;
         }
-        case Constants[_0x56fbf0(0x20a)][_0x56fbf0(0x1d7)][_0x56fbf0(0x1c2)]: {
-            if (variables[_0x23ba56[_0x56fbf0(0x1ea)](/ /g, "")]) return;
-            if (isNaN(_0x23ba56) && !_0x23ba56["includes"]("\x22")) throw new SyntaxError(_0x56fbf0(0x1d6));
+        case Constants[_0x5ec1db(0x174)][_0x5ec1db(0x13b)][_0x5ec1db(0x151)]: {
+            if (variables[_0x1ff3dc[_0x5ec1db(0x143)](/ /g, "")]) return;
+            if (isNaN(_0x1ff3dc) && !_0x1ff3dc["includes"]("\x22")) throw new SyntaxError(_0x5ec1db(0x15b));
             break;
         }
     }
-    (_0x23ba56 == _0x56fbf0(0x1ce) || _0x23ba56 == _0x56fbf0(0x1d2)) &&
-        (variables[_0x277415][_0x56fbf0(0x1ed)] = JSON["parse"](_0x23ba56));
+    (_0x1ff3dc == _0x5ec1db(0x176) || _0x1ff3dc == _0x5ec1db(0x148)) &&
+        (variables[_0x4e42e2]["value"] = JSON[_0x5ec1db(0x18f)](_0x1ff3dc));
 }
-async function getTrollAsk(_0x302e71) {
-    const _0x2db8dd = _0x5b9542,
-        _0x2dba27 = _0x302e71[_0x2db8dd(0x1c6)]("\x20>>\x20");
-    if (_0x2dba27[0x0] == "") _0x2dba27[_0x2db8dd(0x1eb)]();
-    if (_0x2dba27[_0x2db8dd(0x1d9)] <= 0x0) return;
-    const _0x360d1a = _0x2dba27[0x0],
-        _0xe4aff5 = _0x2dba27[0x1],
-        _0xa7caf1 = _0x2dba27[0x2];
-    if (!_0x2dba27[0x3]) return;
-    const _0x2811ac = _0x2dba27[0x3][_0x2db8dd(0x1ea)](/{|}/g, "")["split"](";");
-    if (_0x360d1a !== Constants[_0x2db8dd(0x1d5)]) return;
-    if (!_0xe4aff5["startsWith"]("\x22") && !_0xe4aff5[_0x2db8dd(0x1ef)]("\x22")) return new SyntaxError(_0x2db8dd(0x1f0));
-    const _0x28e9fd = await askQuestion(_0xe4aff5[_0x2db8dd(0x1ea)](/"/g, ""));
-    variables[_0xa7caf1] = { value: _0x28e9fd, extension: Constants[_0x2db8dd(0x1d5)], type: Constants[_0x2db8dd(0x1d5)] };
-    const _0x12101b = new Lexer(_0x2811ac);
-    _0x12101b[_0x2db8dd(0x1e3)]();
+async function getTrollAsk(_0x5c1254) {
+    const _0x5f1a7f = _0x279d26,
+        _0x5ce1e6 = _0x5c1254[_0x5f1a7f(0x152)](_0x5f1a7f(0x16a));
+    if (_0x5ce1e6[0x0] == "") _0x5ce1e6[_0x5f1a7f(0x14b)]();
+    if (_0x5ce1e6[_0x5f1a7f(0x138)] <= 0x0) return;
+    const _0x43c8c3 = _0x5ce1e6[0x0],
+        _0x379886 = _0x5ce1e6[0x1],
+        _0xcce5a4 = _0x5ce1e6[0x2];
+    if (!_0x5ce1e6[0x3]) return;
+    const _0x2efec1 = _0x5ce1e6[0x3]["replace"](/{|}/g, "")[_0x5f1a7f(0x152)](";");
+    if (_0x43c8c3 !== Constants[_0x5f1a7f(0x171)]) return;
+    if (!_0x379886[_0x5f1a7f(0x16c)]("\x22") && !_0x379886[_0x5f1a7f(0x16f)]("\x22"))
+        return new SyntaxError("Text\x20to\x20say\x20must\x20be\x20a\x20string!");
+    const _0x2b945a = await askQuestion(_0x379886[_0x5f1a7f(0x143)](/"/g, ""));
+    variables[_0xcce5a4] = { value: _0x2b945a, extension: Constants[_0x5f1a7f(0x171)], type: Constants[_0x5f1a7f(0x171)] };
+    const _0x171cd1 = new Lexer(_0x2efec1);
+    _0x171cd1[_0x5f1a7f(0x147)]();
 }
-function getTrollAdd(_0x2334cd) {
-    const _0x2d4f15 = _0x5b9542;
-    let _0x4ffd83 = _0x2334cd[_0x2d4f15(0x1c6)]("\x20"),
-        _0x35e367;
-    _0x4ffd83[0x0] == "" && (_0x4ffd83[_0x2d4f15(0x1eb)](), (_0x35e367 = _0x4ffd83), (_0x4ffd83 = []));
-    for (let _0x2e85e1 = 0x0; _0x2e85e1 < _0x35e367?.[_0x2d4f15(0x1d9)]; _0x2e85e1++) {
-        _0x35e367[_0x2e85e1] && _0x4ffd83["push"](_0x35e367[_0x2e85e1]);
+function getTrollAdd(_0x39972c) {
+    const _0x29ee6a = _0x279d26;
+    let _0x385899 = _0x39972c[_0x29ee6a(0x152)]("\x20"),
+        _0x1ee006;
+    _0x385899[0x0] == "" && (_0x385899["shift"](), (_0x1ee006 = _0x385899), (_0x385899 = []));
+    for (let _0x246719 = 0x0; _0x246719 < _0x1ee006?.[_0x29ee6a(0x138)]; _0x246719++) {
+        _0x1ee006[_0x246719] && _0x385899[_0x29ee6a(0x13d)](_0x1ee006[_0x246719]);
     }
-    if (_0x4ffd83["length"] <= 0x0) return;
-    if (_0x4ffd83[0x0]["replace"](/ /g, "") != Constants[_0x2d4f15(0x1d4)]) return;
-    const _0x4e2ee3 = _0x4ffd83[0x1];
-    let _0x17b6c0 = _0x4ffd83[_0x2d4f15(0x1ff)](0x3)[_0x2d4f15(0x1e8)]("\x20");
-    if (!variables[_0x4e2ee3]) throw new SyntaxError("Variable\x20\x22" + _0x4e2ee3 + _0x2d4f15(0x1cc));
+    if (_0x385899["length"] <= 0x0) return;
+    if (_0x385899[0x0]["replace"](/ /g, "") != Constants[_0x29ee6a(0x166)]) return;
+    const _0x52dfa6 = _0x385899[0x1];
+    let _0x1f8aa5 = _0x385899[_0x29ee6a(0x18a)](0x3)[_0x29ee6a(0x163)]("\x20");
+    if (!variables[_0x52dfa6]) throw new SyntaxError(_0x29ee6a(0x169) + _0x52dfa6 + "\x22\x20couldn\x27t\x20be\x20found");
     if (
-        variables[_0x4e2ee3][_0x2d4f15(0x1f6)] != _0x2d4f15(0x1b6) &&
-        variables[_0x4e2ee3][_0x2d4f15(0x1f6)] != "float" &&
-        variables[_0x4e2ee3]["extension"] != _0x2d4f15(0x1be)
+        variables[_0x52dfa6][_0x29ee6a(0x182)] != _0x29ee6a(0x162) &&
+        variables[_0x52dfa6][_0x29ee6a(0x182)] != _0x29ee6a(0x15e) &&
+        variables[_0x52dfa6][_0x29ee6a(0x182)] != _0x29ee6a(0x14e)
     )
-        throw new SyntaxError(_0x2d4f15(0x1fe));
-    if (isNaN(_0x17b6c0)) throw new SyntaxError(_0x2d4f15(0x1e2));
+        throw new SyntaxError(_0x29ee6a(0x172));
+    if (isNaN(_0x1f8aa5)) throw new SyntaxError(_0x29ee6a(0x17a));
     if (
-        _0x17b6c0[_0x2d4f15(0x1f8)](".") &&
-        variables[_0x4e2ee3][_0x2d4f15(0x1f6)] != Constants[_0x2d4f15(0x20a)][_0x2d4f15(0x1c7)][_0x2d4f15(0x1fd)]
+        _0x1f8aa5[_0x29ee6a(0x192)](".") &&
+        variables[_0x52dfa6][_0x29ee6a(0x182)] != Constants[_0x29ee6a(0x174)][_0x29ee6a(0x177)][_0x29ee6a(0x167)]
     )
-        throw new SyntaxError(_0x2d4f15(0x1bb));
-    variables[_0x4e2ee3][_0x2d4f15(0x1ed)] = parseFloat(variables[_0x4e2ee3]["value"]) + parseFloat(_0x17b6c0);
+        throw new SyntaxError(_0x29ee6a(0x15a));
+    variables[_0x52dfa6]["value"] = parseFloat(variables[_0x52dfa6][_0x29ee6a(0x17b)]) + parseFloat(_0x1f8aa5);
 }
-function getTrollMinus(_0x2ee06c) {
-    const _0x48b9a0 = _0x5b9542;
-    let _0x22ff1d = _0x2ee06c[_0x48b9a0(0x1c6)]("\x20"),
-        _0x14cf2d;
-    _0x22ff1d[0x0] == "" && (_0x22ff1d[_0x48b9a0(0x1eb)](), (_0x14cf2d = _0x22ff1d), (_0x22ff1d = []));
-    for (let _0x52aa69 = 0x0; _0x52aa69 < _0x14cf2d?.[_0x48b9a0(0x1d9)]; _0x52aa69++) {
-        _0x14cf2d[_0x52aa69] && _0x22ff1d["push"](_0x14cf2d[_0x52aa69]);
+function getTrollMinus(_0x462c33) {
+    const _0x25e6b0 = _0x279d26;
+    let _0x40c509 = _0x462c33[_0x25e6b0(0x152)]("\x20"),
+        _0x5d9311;
+    _0x40c509[0x0] == "" && (_0x40c509[_0x25e6b0(0x14b)](), (_0x5d9311 = _0x40c509), (_0x40c509 = []));
+    for (let _0x139df7 = 0x0; _0x139df7 < _0x5d9311?.[_0x25e6b0(0x138)]; _0x139df7++) {
+        _0x5d9311[_0x139df7] && _0x40c509[_0x25e6b0(0x13d)](_0x5d9311[_0x139df7]);
     }
-    if (_0x22ff1d[_0x48b9a0(0x1d9)] <= 0x0) return;
-    if (_0x22ff1d[0x0][_0x48b9a0(0x1ea)](/ /g, "") !== Constants[_0x48b9a0(0x1e4)]) return;
-    const _0x58f275 = _0x22ff1d[0x1];
-    let _0x915c37 = _0x22ff1d[_0x48b9a0(0x1ff)](0x3)[_0x48b9a0(0x1e8)]("\x20");
-    if (!variables[_0x58f275]) throw new SyntaxError(_0x48b9a0(0x203) + _0x58f275 + _0x48b9a0(0x1cc));
+    if (_0x40c509["length"] <= 0x0) return;
+    if (_0x40c509[0x0][_0x25e6b0(0x143)](/ /g, "") !== Constants[_0x25e6b0(0x161)]) return;
+    const _0x146d36 = _0x40c509[0x1];
+    let _0x586c1b = _0x40c509["slice"](0x3)[_0x25e6b0(0x163)]("\x20");
+    if (!variables[_0x146d36]) throw new SyntaxError(_0x25e6b0(0x169) + _0x146d36 + _0x25e6b0(0x195));
     if (
-        variables[_0x58f275][_0x48b9a0(0x1f6)] != _0x48b9a0(0x1b6) &&
-        variables[_0x58f275][_0x48b9a0(0x1f6)] != _0x48b9a0(0x1c4) &&
-        variables[_0x58f275][_0x48b9a0(0x1f6)] != "any"
+        variables[_0x146d36][_0x25e6b0(0x182)] != "int" &&
+        variables[_0x146d36]["extension"] != _0x25e6b0(0x15e) &&
+        variables[_0x146d36][_0x25e6b0(0x182)] != _0x25e6b0(0x14e)
     )
-        throw new SyntaxError(_0x48b9a0(0x1fe));
-    if (isNaN(_0x915c37)) throw new SyntaxError(_0x48b9a0(0x1e2));
+        throw new SyntaxError(_0x25e6b0(0x172));
+    if (isNaN(_0x586c1b)) throw new SyntaxError(_0x25e6b0(0x17a));
     if (
-        _0x915c37[_0x48b9a0(0x1f8)](".") &&
-        variables[_0x58f275][_0x48b9a0(0x1f6)] != Constants[_0x48b9a0(0x20a)][_0x48b9a0(0x1c7)][_0x48b9a0(0x1fd)]
+        _0x586c1b[_0x25e6b0(0x192)](".") &&
+        variables[_0x146d36][_0x25e6b0(0x182)] != Constants[_0x25e6b0(0x174)]["VARIABLE_TYPES"][_0x25e6b0(0x167)]
     )
-        throw new SyntaxError(_0x48b9a0(0x1bb));
-    variables[_0x58f275][_0x48b9a0(0x1ed)] = parseFloat(variables[_0x58f275]["value"]) - parseFloat(_0x915c37);
+        throw new SyntaxError(_0x25e6b0(0x15a));
+    variables[_0x146d36][_0x25e6b0(0x17b)] = parseFloat(variables[_0x146d36]["value"]) - parseFloat(_0x586c1b);
 }
-function getTrollMultiply(_0x4f6d66) {
-    const _0x403f6f = _0x5b9542;
-    let _0x34b6b2 = _0x4f6d66["split"]("\x20"),
-        _0x5eec6c;
-    _0x34b6b2[0x0] == "" && (_0x34b6b2[_0x403f6f(0x1eb)](), (_0x5eec6c = _0x34b6b2), (_0x34b6b2 = []));
-    for (let _0x241f70 = 0x0; _0x241f70 < _0x5eec6c?.["length"]; _0x241f70++) {
-        _0x5eec6c[_0x241f70] && _0x34b6b2[_0x403f6f(0x1d1)](_0x5eec6c[_0x241f70]);
+function getTrollMultiply(_0x11da98) {
+    const _0x3f120c = _0x279d26;
+    let _0x51f0bd = _0x11da98[_0x3f120c(0x152)]("\x20"),
+        _0x2a5c58;
+    _0x51f0bd[0x0] == "" && (_0x51f0bd["shift"](), (_0x2a5c58 = _0x51f0bd), (_0x51f0bd = []));
+    for (let _0x1002dd = 0x0; _0x1002dd < _0x2a5c58?.["length"]; _0x1002dd++) {
+        _0x2a5c58[_0x1002dd] && _0x51f0bd[_0x3f120c(0x13d)](_0x2a5c58[_0x1002dd]);
     }
-    if (_0x34b6b2[_0x403f6f(0x1d9)] <= 0x0) return;
-    if (_0x34b6b2[0x0][_0x403f6f(0x1ea)](/ /g, "") !== Constants["TROLLMULTIPLY"]) return;
-    const _0xb5945f = _0x34b6b2[0x1];
-    let _0xa70136 = _0x34b6b2[_0x403f6f(0x1ff)](0x3)[_0x403f6f(0x1e8)]("\x20");
-    if (!variables[_0xb5945f]) throw new SyntaxError(_0x403f6f(0x203) + _0xb5945f + "\x22\x20couldn\x27t\x20be\x20found");
+    if (_0x51f0bd["length"] <= 0x0) return;
+    if (_0x51f0bd[0x0]["replace"](/ /g, "") !== Constants[_0x3f120c(0x194)]) return;
+    const _0x23c76c = _0x51f0bd[0x1];
+    let _0x5c787c = _0x51f0bd[_0x3f120c(0x18a)](0x3)[_0x3f120c(0x163)]("\x20");
+    if (!variables[_0x23c76c]) throw new SyntaxError("Variable\x20\x22" + _0x23c76c + _0x3f120c(0x195));
     if (
-        variables[_0xb5945f]["extension"] != _0x403f6f(0x1b6) &&
-        variables[_0xb5945f]["extension"] != "float" &&
-        variables[_0xb5945f][_0x403f6f(0x1f6)] != _0x403f6f(0x1be)
+        variables[_0x23c76c][_0x3f120c(0x182)] != _0x3f120c(0x162) &&
+        variables[_0x23c76c][_0x3f120c(0x182)] != _0x3f120c(0x15e) &&
+        variables[_0x23c76c][_0x3f120c(0x182)] != _0x3f120c(0x14e)
     )
-        throw new SyntaxError(_0x403f6f(0x1fe));
-    if (isNaN(_0xa70136)) throw new SyntaxError(_0x403f6f(0x1e2));
+        throw new SyntaxError(_0x3f120c(0x172));
+    if (isNaN(_0x5c787c)) throw new SyntaxError(_0x3f120c(0x17a));
     if (
-        _0xa70136[_0x403f6f(0x1f8)](".") &&
-        variables[_0xb5945f]["extension"] != Constants[_0x403f6f(0x20a)][_0x403f6f(0x1c7)][_0x403f6f(0x1fd)]
+        _0x5c787c["includes"](".") &&
+        variables[_0x23c76c][_0x3f120c(0x182)] != Constants[_0x3f120c(0x174)][_0x3f120c(0x177)]["FLOAT"]
+    )
+        throw new SyntaxError(_0x3f120c(0x15a));
+    variables[_0x23c76c]["value"] = parseFloat(variables[_0x23c76c][_0x3f120c(0x17b)]) * parseFloat(_0x5c787c);
+}
+function _0x49ed(_0x462c3e, _0x239536) {
+    const _0x3d426b = _0x3d42();
+    return (
+        (_0x49ed = function (_0x49edeb, _0x637da) {
+            _0x49edeb = _0x49edeb - 0x135;
+            let _0x595ed2 = _0x3d426b[_0x49edeb];
+            return _0x595ed2;
+        }),
+        _0x49ed(_0x462c3e, _0x239536)
+    );
+}
+function getTrollDivide(_0x5a8a0c) {
+    const _0x3c427d = _0x279d26;
+    let _0x29e4e6 = _0x5a8a0c[_0x3c427d(0x152)]("\x20"),
+        _0x35cae5;
+    _0x29e4e6[0x0] == "" && (_0x29e4e6["shift"](), (_0x35cae5 = _0x29e4e6), (_0x29e4e6 = []));
+    for (let _0x354b7e = 0x0; _0x354b7e < _0x35cae5?.[_0x3c427d(0x138)]; _0x354b7e++) {
+        _0x35cae5[_0x354b7e] && _0x29e4e6[_0x3c427d(0x13d)](_0x35cae5[_0x354b7e]);
+    }
+    if (_0x29e4e6[_0x3c427d(0x138)] <= 0x0) return;
+    if (_0x29e4e6[0x0]["replace"](/ /g, "") !== Constants["TROLLDIVIDE"]) return;
+    const _0xcfec57 = _0x29e4e6[0x1];
+    let _0x47f434 = _0x29e4e6[_0x3c427d(0x18a)](0x3)[_0x3c427d(0x163)]("\x20");
+    if (!variables[_0xcfec57]) throw new SyntaxError(_0x3c427d(0x169) + _0xcfec57 + _0x3c427d(0x195));
+    if (
+        variables[_0xcfec57][_0x3c427d(0x182)] != _0x3c427d(0x162) &&
+        variables[_0xcfec57][_0x3c427d(0x182)] != _0x3c427d(0x15e) &&
+        variables[_0xcfec57]["extension"] != "any"
+    )
+        throw new SyntaxError("Cannot\x20asign\x20a\x20number\x20on\x20string,\x20bool\x20and\x20char");
+    if (isNaN(_0x47f434)) throw new SyntaxError(_0x3c427d(0x17a));
+    if (
+        _0x47f434[_0x3c427d(0x192)](".") &&
+        variables[_0xcfec57]["extension"] != Constants[_0x3c427d(0x174)][_0x3c427d(0x177)][_0x3c427d(0x167)]
     )
         throw new SyntaxError("Cannot\x20asign\x20a\x20float\x20value\x20to\x20int");
-    variables[_0xb5945f]["value"] = parseFloat(variables[_0xb5945f][_0x403f6f(0x1ed)]) * parseFloat(_0xa70136);
+    variables[_0xcfec57][_0x3c427d(0x17b)] = parseFloat(variables[_0xcfec57][_0x3c427d(0x17b)]) / parseFloat(_0x47f434);
 }
-function getTrollDivide(_0x4346e7) {
-    const _0x4c66d4 = _0x5b9542;
-    let _0x2deabb = _0x4346e7[_0x4c66d4(0x1c6)]("\x20"),
-        _0x4a5801;
-    _0x2deabb[0x0] == "" && (_0x2deabb[_0x4c66d4(0x1eb)](), (_0x4a5801 = _0x2deabb), (_0x2deabb = []));
-    for (let _0x1f2c6b = 0x0; _0x1f2c6b < _0x4a5801?.[_0x4c66d4(0x1d9)]; _0x1f2c6b++) {
-        _0x4a5801[_0x1f2c6b] && _0x2deabb[_0x4c66d4(0x1d1)](_0x4a5801[_0x1f2c6b]);
+function getWindow(_0x4b3281) {
+    const _0x3d34d8 = _0x279d26;
+    let _0x49ee16 = _0x4b3281[_0x3d34d8(0x152)]("\x20"),
+        _0x460ace;
+    _0x49ee16[0x0] == "" && (_0x49ee16[_0x3d34d8(0x14b)](), (_0x460ace = _0x49ee16), (_0x49ee16 = []));
+    for (let _0x589f72 = 0x0; _0x589f72 < _0x460ace?.[_0x3d34d8(0x138)]; _0x589f72++) {
+        _0x460ace[_0x589f72] && _0x49ee16[_0x3d34d8(0x13d)](_0x460ace[_0x589f72]);
     }
-    if (_0x2deabb[_0x4c66d4(0x1d9)] <= 0x0) return;
-    if (_0x2deabb[0x0][_0x4c66d4(0x1ea)](/ /g, "") !== Constants[_0x4c66d4(0x1ee)]) return;
-    const _0x1d5450 = _0x2deabb[0x1];
-    let _0x2fce83 = _0x2deabb[_0x4c66d4(0x1ff)](0x3)[_0x4c66d4(0x1e8)]("\x20");
-    if (!variables[_0x1d5450]) throw new SyntaxError(_0x4c66d4(0x203) + _0x1d5450 + _0x4c66d4(0x1cc));
-    if (
-        variables[_0x1d5450]["extension"] != _0x4c66d4(0x1b6) &&
-        variables[_0x1d5450][_0x4c66d4(0x1f6)] != _0x4c66d4(0x1c4) &&
-        variables[_0x1d5450][_0x4c66d4(0x1f6)] != "any"
-    )
-        throw new SyntaxError(_0x4c66d4(0x1fe));
-    if (isNaN(_0x2fce83)) throw new SyntaxError(_0x4c66d4(0x1e2));
-    if (
-        _0x2fce83["includes"](".") &&
-        variables[_0x1d5450][_0x4c66d4(0x1f6)] != Constants["SYSTEM"][_0x4c66d4(0x1c7)][_0x4c66d4(0x1fd)]
-    )
-        throw new SyntaxError(_0x4c66d4(0x1bb));
-    variables[_0x1d5450][_0x4c66d4(0x1ed)] = parseFloat(variables[_0x1d5450]["value"]) / parseFloat(_0x2fce83);
+    if (_0x49ee16[_0x3d34d8(0x138)] <= 0x0) return;
+    if (_0x49ee16[0x0]["replace"](/ /g, "") !== Constants[_0x3d34d8(0x15c)][_0x3d34d8(0x142)]) return;
+    let _0x4cf6d4, _0xdb31ed, _0x11cab7;
+    (_0x4cf6d4 = _0x49ee16[0x0] || null),
+        (_0x11cab7 = _0x49ee16[0x1] || null),
+        (_0xdb31ed = _0x49ee16[_0x3d34d8(0x18a)](0x3)[_0x3d34d8(0x163)]("\x20")[_0x3d34d8(0x143)](";", ""));
+    const _0x18dcf3 = _0xdb31ed["replace"](/\)|Troll.window/g, "")
+            [_0x3d34d8(0x152)]("(")
+            [_0x3d34d8(0x163)]("\x20")
+            ["split"](",\x20"),
+        _0x3796c2 = Handler[_0x3d34d8(0x168)](
+            parseFloat(_0x18dcf3[0x0]),
+            parseFloat(_0x18dcf3[0x1]),
+            parseFloat(_0x18dcf3[0x2]),
+            parseFloat(_0x18dcf3[0x3]),
+            JSON[_0x3d34d8(0x18f)](_0x18dcf3[0x4]),
+            _0x18dcf3[0x5] || _0x3d34d8(0x181)
+        );
+    windows[_0x11cab7] = { values: _0x18dcf3 };
 }
-function getWindow(_0xdd2e93) {
-    const _0x356ea4 = _0x5b9542;
-    let _0x519cd3 = _0xdd2e93[_0x356ea4(0x1c6)]("\x20"),
-        _0xf28412;
-    _0x519cd3[0x0] == "" && (_0x519cd3[_0x356ea4(0x1eb)](), (_0xf28412 = _0x519cd3), (_0x519cd3 = []));
-    for (let _0x155055 = 0x0; _0x155055 < _0xf28412?.[_0x356ea4(0x1d9)]; _0x155055++) {
-        _0xf28412[_0x155055] && _0x519cd3["push"](_0xf28412[_0x155055]);
+function getTrollWindow(_0x5a652a) {
+    const _0x56f9bc = _0x279d26;
+    let _0x1b7843 = _0x5a652a[_0x56f9bc(0x152)]("\x20"),
+        _0x1344d5;
+    _0x1b7843[0x0] == "" && (_0x1b7843[_0x56f9bc(0x14b)](), (_0x1344d5 = _0x1b7843), (_0x1b7843 = []));
+    for (let _0xc0466c = 0x0; _0xc0466c < _0x1344d5?.[_0x56f9bc(0x138)]; _0xc0466c++) {
+        _0x1344d5[_0xc0466c] && _0x1b7843[_0x56f9bc(0x13d)](_0x1344d5[_0xc0466c]);
     }
-    if (_0x519cd3[_0x356ea4(0x1d9)] <= 0x0) return;
-    if (_0x519cd3[0x0][_0x356ea4(0x1ea)](/ /g, "") !== Constants[_0x356ea4(0x1b9)][_0x356ea4(0x205)]) return;
-    let _0x694fc7, _0x4be30e, _0x3b76ec;
-    (_0x694fc7 = _0x519cd3[0x0] || null),
-        (_0x3b76ec = _0x519cd3[0x1] || null),
-        (_0x4be30e = _0x519cd3[_0x356ea4(0x1ff)](0x3)[_0x356ea4(0x1e8)]("\x20")[_0x356ea4(0x1ea)](";", ""));
-    const _0xbcfb7f = _0x4be30e[_0x356ea4(0x1ea)](/\)|Troll.window/g, "")
-        ["split"]("(")
-        [_0x356ea4(0x1e8)]("\x20")
-        ["split"](",\x20");
-    console[_0x356ea4(0x1db)](_0xbcfb7f[0x5]);
-    const _0x45acb5 = Handler[_0x356ea4(0x1d0)](
-        parseFloat(_0xbcfb7f[0x0]),
-        parseFloat(_0xbcfb7f[0x1]),
-        parseFloat(_0xbcfb7f[0x2]),
-        parseFloat(_0xbcfb7f[0x3]),
-        JSON[_0x356ea4(0x1c1)](_0xbcfb7f[0x4]),
-        _0xbcfb7f[0x5] || null
-    );
-    windows[_0x3b76ec] = { values: _0xbcfb7f };
+    if (_0x1b7843[_0x56f9bc(0x138)] <= 0x0) return;
+    if (_0x1b7843[0x0][_0x56f9bc(0x143)](/ /g, "") !== Constants[_0x56f9bc(0x15c)]["TROLLWINDOW"]) return;
+    let _0x1ebc3c, _0x3c78d2, _0x1b8149;
+    (_0x1ebc3c = _0x1b7843[0x0] || null),
+        (_0x1b8149 = _0x1b7843[0x1] || null),
+        (_0x3c78d2 = _0x1b7843[_0x56f9bc(0x18a)](0x3)[_0x56f9bc(0x163)]("\x20")[_0x56f9bc(0x143)](";", ""));
+    let _0xd7bda2 = _0x3c78d2[_0x56f9bc(0x143)](/\)|name|"/g, "")[_0x56f9bc(0x152)]("(");
+    if (!windows[_0x1b8149[_0x56f9bc(0x143)](/ /g, "")])
+        throw new SyntaxError("Window\x20\x22" + _0x1b8149[_0x56f9bc(0x143)](/ /g, "") + _0x56f9bc(0x195));
+    if (!windows[_0xd7bda2[0x0][_0x56f9bc(0x143)](/.loadFile|.loadURL/g, "")])
+        throw new SyntaxError(
+            _0x56f9bc(0x156) + _0xd7bda2[0x0][_0x56f9bc(0x143)](/.loadFile|.loadURL/g, "") + "\x22\x20couldn\x27t\x20be\x20found"
+        );
+    if (_0xd7bda2[0x0][_0x56f9bc(0x192)]("loadFile")) Handler[_0x56f9bc(0x17e)](_0xd7bda2[0x1]);
+    if (_0xd7bda2[0x0][_0x56f9bc(0x192)](_0x56f9bc(0x15d))) Handler[_0x56f9bc(0x15d)](_0xd7bda2[0x1]);
 }
-function getTrollWindow(_0x478001) {
-    const _0x1f2c26 = _0x5b9542;
-    let _0x5cb317 = _0x478001[_0x1f2c26(0x1c6)]("\x20"),
-        _0xc8d5d6;
-    _0x5cb317[0x0] == "" && (_0x5cb317[_0x1f2c26(0x1eb)](), (_0xc8d5d6 = _0x5cb317), (_0x5cb317 = []));
-    for (let _0x57ff2b = 0x0; _0x57ff2b < _0xc8d5d6?.["length"]; _0x57ff2b++) {
-        _0xc8d5d6[_0x57ff2b] && _0x5cb317["push"](_0xc8d5d6[_0x57ff2b]);
+function getTrollIpc(_0x468a74) {
+    const _0x26f2c2 = _0x279d26;
+    let _0x1fad4e = _0x468a74["split"](_0x26f2c2(0x16a)),
+        _0x513e42;
+    _0x1fad4e[0x0] == "" && (_0x1fad4e[_0x26f2c2(0x14b)](), (_0x513e42 = _0x1fad4e), (_0x1fad4e = []));
+    for (let _0x7a3de3 = 0x0; _0x7a3de3 < _0x513e42?.["length"]; _0x7a3de3++) {
+        _0x513e42[_0x7a3de3] && _0x1fad4e[_0x26f2c2(0x13d)](_0x513e42[_0x7a3de3]);
     }
-    if (_0x5cb317[_0x1f2c26(0x1d9)] <= 0x0) return;
-    if (_0x5cb317[0x0][_0x1f2c26(0x1ea)](/ /g, "") !== Constants[_0x1f2c26(0x1b9)]["TROLLWINDOW"]) return;
-    let _0x528556, _0x2fef97, _0x4d0fb7;
-    (_0x528556 = _0x5cb317[0x0] || null),
-        (_0x4d0fb7 = _0x5cb317[0x1] || null),
-        (_0x2fef97 = _0x5cb317["slice"](0x3)[_0x1f2c26(0x1e8)]("\x20")[_0x1f2c26(0x1ea)](";", ""));
-    let _0x5c3949 = _0x2fef97["replace"](/\)|name|"/g, "")[_0x1f2c26(0x1c6)]("(");
-    if (!windows[_0x4d0fb7["replace"](/ /g, "")])
-        throw new SyntaxError(_0x1f2c26(0x207) + _0x4d0fb7[_0x1f2c26(0x1ea)](/ /g, "") + _0x1f2c26(0x1cc));
-    if (!windows[_0x5c3949[0x0][_0x1f2c26(0x1ea)](/.loadFile|.loadURL/g, "")])
-        throw new SyntaxError(_0x1f2c26(0x207) + _0x5c3949[0x0][_0x1f2c26(0x1ea)](/.loadFile|.loadURL/g, "") + _0x1f2c26(0x1cc));
-    if (_0x5c3949[0x0][_0x1f2c26(0x1f8)](_0x1f2c26(0x1cb))) Handler[_0x1f2c26(0x1cb)](_0x5c3949[0x1]);
-    if (_0x5c3949[0x0][_0x1f2c26(0x1f8)](_0x1f2c26(0x1f3))) Handler[_0x1f2c26(0x1f3)](_0x5c3949[0x1]);
-}
-function getTrollIpc(_0x28b975) {
-    const _0xbdb369 = _0x5b9542;
-    let _0x4d9655 = _0x28b975[_0xbdb369(0x1c6)]("\x20>>\x20"),
-        _0x59c344;
-    _0x4d9655[0x0] == "" && (_0x4d9655[_0xbdb369(0x1eb)](), (_0x59c344 = _0x4d9655), (_0x4d9655 = []));
-    for (let _0x5d47b9 = 0x0; _0x5d47b9 < _0x59c344?.["length"]; _0x5d47b9++) {
-        _0x59c344[_0x5d47b9] && _0x4d9655[_0xbdb369(0x1d1)](_0x59c344[_0x5d47b9]);
-    }
-    if (_0x4d9655[_0xbdb369(0x1d9)] <= 0x0) return;
-    if (_0x4d9655[0x0][_0xbdb369(0x1ea)](/ /g, "") !== Constants[_0xbdb369(0x1b9)]["TROLLIPC"]) return;
-    let _0x28c034 = _0x4d9655[0x0] || null,
-        _0x3cc669 = _0x4d9655[0x1] || null,
-        _0x542aff = _0x4d9655[0x2] || null,
-        _0x4098d0 = _0x4d9655[0x3][_0xbdb369(0x1c6)](",\x20") || null,
-        _0x54ab44 = _0x4d9655[0x4]["replace"](/{|}/g, "")["split"](";");
-    if (_0x4098d0 == "null") _0x4098d0 = null;
-    if (!_0x542aff) throw new SyntaxError(_0xbdb369(0x204));
-    if (!windows[_0x3cc669[_0xbdb369(0x1ea)](/ /g, "")])
-        throw new SyntaxError(_0xbdb369(0x207) + _0x3cc669[_0xbdb369(0x1ea)](/ /g, "") + "\x22\x20couldn\x27t\x20be\x20found");
-    Handler[_0xbdb369(0x1dc)](_0x542aff, _0x54ab44, _0x4098d0);
+    if (_0x1fad4e[_0x26f2c2(0x138)] <= 0x0) return;
+    if (_0x1fad4e[0x0]["replace"](/ /g, "") !== Constants["ELECTRON"][_0x26f2c2(0x139)]) return;
+    let _0x44146c = _0x1fad4e[0x0] || null,
+        _0x2c9e2d = _0x1fad4e[0x1] || null,
+        _0x83b7bc = _0x1fad4e[0x2] || null,
+        _0x58f872 = _0x1fad4e[0x3][_0x26f2c2(0x152)](",\x20") || null,
+        _0x5e89bb = _0x1fad4e[0x4]["replace"](/{|}/g, "")["split"](";");
+    if (_0x58f872 == _0x26f2c2(0x16e)) _0x58f872 = null;
+    if (!_0x83b7bc) throw new SyntaxError(_0x26f2c2(0x160));
+    if (!windows[_0x2c9e2d["replace"](/ /g, "")])
+        throw new SyntaxError(_0x26f2c2(0x156) + _0x2c9e2d[_0x26f2c2(0x143)](/ /g, "") + _0x26f2c2(0x195));
+    Handler[_0x26f2c2(0x136)](_0x83b7bc, _0x5e89bb, _0x58f872);
 }
 class Lexer {
-    constructor(_0x1ab7f8) {
-        const _0x5b27ac = _0x5b9542;
-        (this[_0x5b27ac(0x1da)] = _0x1ab7f8), (this[_0x5b27ac(0x1dd)] = 0x0);
+    constructor(_0x46c1c4) {
+        const _0x9f9bda = _0x279d26;
+        (this[_0x9f9bda(0x191)] = _0x46c1c4), (this[_0x9f9bda(0x158)] = 0x0);
     }
-    ["advance"]() {
-        const _0x36d665 = _0x5b9542;
-        this[_0x36d665(0x1dd)] < this[_0x36d665(0x1da)]["length"] - 0x1
-            ? this[_0x36d665(0x1dd)]++
-            : (this[_0x36d665(0x1dd)] = null);
+    [_0x279d26(0x146)]() {
+        const _0x3294a5 = _0x279d26;
+        this["currIndex"] < this[_0x3294a5(0x191)]["length"] - 0x1 ? this["currIndex"]++ : (this[_0x3294a5(0x158)] = null);
     }
-    async [_0x5b9542(0x1e3)]() {
-        const _0x3915b3 = _0x5b9542;
-        while (this["currIndex"] != null) {
+    async ["start"]() {
+        const _0x14806b = _0x279d26;
+        while (this[_0x14806b(0x158)] != null) {
             !paused &&
-                (this["data"][this[_0x3915b3(0x1dd)]]["replace"](/ /g, "")[_0x3915b3(0x1b3)]("#")
-                    ? this["advance"]()
+                (this[_0x14806b(0x191)][this["currIndex"]][_0x14806b(0x143)](/ /g, "")[_0x14806b(0x16c)]("#")
+                    ? this[_0x14806b(0x146)]()
                     : (this["checkLogs"](),
-                      getVariableName(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getIfStatement(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getFunctions(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getCalledFunction(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getMath(this[_0x3915b3(0x1da)][this["currIndex"]]),
-                      getSetVar(this[_0x3915b3(0x1da)][this["currIndex"]]),
-                      getTrollAsk(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getTrollAdd(this[_0x3915b3(0x1da)][this["currIndex"]]),
-                      getTrollMinus(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getTrollMultiply(this["data"][this[_0x3915b3(0x1dd)]]),
-                      getTrollDivide(this["data"][this[_0x3915b3(0x1dd)]]),
-                      getWhileStatement(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getForStatement(this["data"][this[_0x3915b3(0x1dd)]]),
-                      getWindow(this[_0x3915b3(0x1da)][this[_0x3915b3(0x1dd)]]),
-                      getTrollWindow(this["data"][this["currIndex"]]),
-                      getTrollIpc(this[_0x3915b3(0x1da)][this["currIndex"]]),
+                      getVariableName(this["data"][this[_0x14806b(0x158)]]),
+                      getIfStatement(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getFunctions(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getCalledFunction(this["data"][this[_0x14806b(0x158)]]),
+                      getMath(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getSetVar(this["data"][this[_0x14806b(0x158)]]),
+                      getTrollAsk(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollAdd(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollMinus(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollMultiply(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollDivide(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getWhileStatement(this[_0x14806b(0x191)][this["currIndex"]]),
+                      getForStatement(this["data"][this[_0x14806b(0x158)]]),
+                      getWindow(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollWindow(this[_0x14806b(0x191)][this[_0x14806b(0x158)]]),
+                      getTrollIpc(this[_0x14806b(0x191)][this["currIndex"]]),
                       this["advance"]()));
         }
     }
-    [_0x5b9542(0x20d)]() {
-        const _0x215db6 = _0x5b9542;
+    [_0x279d26(0x189)]() {
+        const _0x98f7fd = _0x279d26;
         if (
-            this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]][_0x215db6(0x1f8)](Constants[_0x215db6(0x20a)]["LOG"]) &&
-            !this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]][_0x215db6(0x1b3)](Constants[_0x215db6(0x1ec)]) &&
-            !this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]]["startsWith"](Constants["IF"]) &&
-            !this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]][_0x215db6(0x1b3)](Constants[_0x215db6(0x1bf)]) &&
-            !this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]][_0x215db6(0x1b3)](Constants[_0x215db6(0x1b2)]) &&
-            !this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]][_0x215db6(0x1b3)](Constants[_0x215db6(0x1d5)])
+            this[_0x98f7fd(0x191)][this["currIndex"]][_0x98f7fd(0x192)](Constants["SYSTEM"][_0x98f7fd(0x18e)]) &&
+            !this[_0x98f7fd(0x191)][this[_0x98f7fd(0x158)]]["startsWith"](Constants["FUNCTION"]) &&
+            !this[_0x98f7fd(0x191)][this[_0x98f7fd(0x158)]][_0x98f7fd(0x16c)](Constants["IF"]) &&
+            !this["data"][this[_0x98f7fd(0x158)]]["startsWith"](Constants[_0x98f7fd(0x190)]) &&
+            !this[_0x98f7fd(0x191)][this[_0x98f7fd(0x158)]]["startsWith"](Constants[_0x98f7fd(0x18b)]) &&
+            !this["data"][this[_0x98f7fd(0x158)]]["startsWith"](Constants[_0x98f7fd(0x171)])
         ) {
-            let _0x57fc86 = this[_0x215db6(0x1da)][this[_0x215db6(0x1dd)]]
-                [_0x215db6(0x1ea)](")", "")
-                [_0x215db6(0x1ea)](";", "")
-                [_0x215db6(0x1c6)](_0x215db6(0x1ba))
-                [_0x215db6(0x1e8)]("\x20");
-            if (_0x57fc86[_0x215db6(0x1f8)]("\x22")) console["log"](_0x57fc86["replace"](/"/g, ""));
+            let _0x4fb516 = this[_0x98f7fd(0x191)][this["currIndex"]]
+                [_0x98f7fd(0x143)](")", "")
+                [_0x98f7fd(0x143)](";", "")
+                ["split"](_0x98f7fd(0x13a))
+                ["join"]("\x20");
+            if (_0x4fb516[_0x98f7fd(0x192)]("\x22")) console[_0x98f7fd(0x150)](_0x4fb516[_0x98f7fd(0x143)](/"/g, ""));
             else {
-                if (_0x57fc86[_0x215db6(0x1f8)]("+")) {
-                    const _0x31cc84 = _0x57fc86[_0x215db6(0x1c6)]("+");
-                    let _0x316894 = "";
-                    for (let _0x408536 = 0x0; _0x408536 < _0x31cc84[_0x215db6(0x1d9)]; _0x408536++) {
-                        let _0x20095f;
-                        if (variables[_0x31cc84[_0x408536][_0x215db6(0x1ea)](/ /g, "")][_0x215db6(0x1ed)])
-                            _0x20095f =
-                                variables[_0x31cc84[_0x408536][_0x215db6(0x1ea)](/ /g, "")][_0x215db6(0x1ed)][_0x215db6(0x1ea)](
-                                    /"/g,
-                                    ""
-                                ) + "\x20";
-                        _0x316894 += "" + _0x20095f;
+                if (_0x4fb516[_0x98f7fd(0x192)]("+")) {
+                    const _0x26d1a5 = _0x4fb516["split"]("+");
+                    let _0x1e70f5 = "";
+                    for (let _0x254a72 = 0x0; _0x254a72 < _0x26d1a5[_0x98f7fd(0x138)]; _0x254a72++) {
+                        let _0x4187df;
+                        if (variables[_0x26d1a5[_0x254a72][_0x98f7fd(0x143)](/ /g, "")][_0x98f7fd(0x17b)])
+                            _0x4187df =
+                                variables[_0x26d1a5[_0x254a72][_0x98f7fd(0x143)](/ /g, "")]["value"][_0x98f7fd(0x143)](/"/g, "") +
+                                "\x20";
+                        _0x1e70f5 += "" + _0x4187df;
                     }
-                    console[_0x215db6(0x1db)](_0x316894);
+                    console[_0x98f7fd(0x150)](_0x1e70f5);
                 } else
-                    isNaN(variables[_0x57fc86[_0x215db6(0x1ea)](/ /g, "")][_0x215db6(0x1ed)])
-                        ? console[_0x215db6(0x1db)](
-                              variables[_0x57fc86[_0x215db6(0x1ea)](/ /g, "")]["value"]
-                                  [_0x215db6(0x20c)]()
-                                  [_0x215db6(0x1ea)](/"/g, "")
+                    isNaN(variables[_0x4fb516[_0x98f7fd(0x143)](/ /g, "")][_0x98f7fd(0x17b)])
+                        ? console[_0x98f7fd(0x150)](
+                              variables[_0x4fb516[_0x98f7fd(0x143)](/ /g, "")][_0x98f7fd(0x17b)]
+                                  [_0x98f7fd(0x173)]()
+                                  [_0x98f7fd(0x143)](/"/g, "")
                           )
-                        : console[_0x215db6(0x1db)](variables[_0x57fc86["replace"](/ /g, "")][_0x215db6(0x1ed)]);
+                        : console["log"](variables[_0x4fb516[_0x98f7fd(0x143)](/ /g, "")][_0x98f7fd(0x17b)]);
             }
         }
     }
 }
-module["exports"] = Lexer;
+module[_0x279d26(0x185)] = Lexer;

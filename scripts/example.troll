@@ -1,6 +1,2 @@
-#Create integer variable
-int counting -> 0
-
-#Do while loop
-
-while : counting : <= : 10 >> { trolladd counting -> 1; Troll.Face.System.Log(counting) }
+window mainWindow -> Troll.window(1200, 800, 500, 200, true)
+#Argument Placement: MaxWidth, MaxHeight, MinWidth, MinHeight, Frame
