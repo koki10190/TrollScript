@@ -32,7 +32,7 @@ const _0x233e55 = _0x416d;
 })(_0x4c26, 0xa1f3e);
 function _0x4c26() {
     const _0x455933 = [
-        "./src/scripts/",
+        "./scripts/",
         "find",
         "10kSlkVM",
         "\x27\x20couldn\x27t\x20be\x20found!",
