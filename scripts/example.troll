@@ -1,1 +1,2 @@
-Troll.Face.System.Log("Example Code")
+bool urmom -> true
+if : urmom : == : true >> { Troll.Face.System.Log(urmom) }
