@@ -4,8 +4,8 @@
     "description": "KokiScript is JavaScript with features",
     "main": "./src/compiler.js",
     "scripts": {
-        "electron": "electron . compile yes",
-        "start": "node . compile yes"
+        "electron": "electron . compile example.troll",
+        "start": "node . compile example.troll"
     },
     "author": "koki1019#1019",
     "license": "ISC",
