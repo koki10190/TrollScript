@@ -1,2 +1,6 @@
-bool urmom -> true
-if : urmom : == : true >> { Troll.Face.System.Log(urmom) }
+#Create integer variable
+int counting -> 0
+
+#Do while loop
+
+while : counting : <= : 10 >> { trolladd counting -> 1; Troll.Face.System.Log(counting) }
